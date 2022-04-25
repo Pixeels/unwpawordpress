@@ -1,6 +1,8 @@
+<?php
+  /* Template Name: Homepage*/
+?>
+
 <html>
-
-
 <body>
   <!-- Header Section -->
   <?php include 'includes/header.php' ?>
