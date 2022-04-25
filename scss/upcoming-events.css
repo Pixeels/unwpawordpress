@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+#navbarNavDropdown ul li a:link {
+  text-decoration: none;
+  -webkit-transform: 1s;
+          transform: 1s;
+}
+
+#navbarNavDropdown ul li a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 2px;
+}
+
+.body {
+  font-family: 'Poppins';
+}
+
+.header-bg {
+  background-color: #2861F6;
+  border-bottom: 10px solid #264caa;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-news-and-updates {
+  visibility: visible;
+  top: 2.3rem;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-conferences {
+  visibility: visible;
+  top: 2.3rem;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap:hover .hoverable-about-us {
+  visibility: visible;
+  top: 2.3rem;
+  opacity: 1;
+}
+
+.header-bg .hoverable_wrap {
+  position: relative;
+}
+
+.header-bg .hoverable_wrap ul li {
+  list-style-type: none;
+}
+
+.header-bg .hoverable_wrap .hoverable-news-and-updates {
+  position: absolute;
+  z-index: 10;
+  top: 5rem;
+  background-color: #ffffff;
+  width: 20rem;
+  overflow-x: hidden;
+  visibility: hidden;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2px;
+  opacity: 1;
+  -webkit-transition: top 0.3s, opacity 0.3s;
+  transition: top 0.3s, opacity 0.3s;
+}
+
+.header-bg .hoverable_wrap .hoverable-conferences {
+  position: absolute;
+  z-index: 10;
+  top: 5rem;
+  background-color: #ffffff;
+  width: 20rem;
+  overflow-x: hidden;
+  visibility: visible;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: top 0.3s, opacity 0.3s;
+  transition: top 0.3s, opacity 0.3s;
+}
+
+.header-bg .hoverable_wrap .hoverable-about-us {
+  position: absolute;
+  z-index: 10;
+  top: 5rem;
+  right: 0;
+  width: 50rem;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  visibility: hidden;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: top 0.3s, opacity 0.3s;
+  transition: top 0.3s, opacity 0.3s;
+}
+
+@-webkit-keyframes logoSlide {
+  from {
+    left: -30rem;
+  }
+  to {
+    left: 0rem;
+  }
+}
+
+@keyframes logoSlide {
+  from {
+    left: -30rem;
+  }
+  to {
+    left: 0rem;
+  }
+}
+
+.logo-bg {
+  background-image: url("../assets/homepage/header-logobg.png");
+  background-size: 100% 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  -webkit-animation: 1.8s ease-out 0s 1 logoSlide;
+          animation: 1.8s ease-out 0s 1 logoSlide;
+}
+
+.pageCarousel {
+  border-bottom: 10px solid #264caa;
+}
+
+ul.social-media li img {
+  width: 20px;
+  display: inline;
+}
+
+.left-element-with-background-image {
+  position: relative;
+  background-image: url("../assets/upcoming-events/CONFERENCE.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.left-color-overlay {
+  background-image: linear-gradient(269deg, #24314C, #24314c85);
+}
+
+.right-bg {
+  background-color: #24314C;
+}
+
+.form-registration h1 {
+  color: #F4B63C;
+}
+
+.form-registration h3 {
+  color: #FFDA7E;
+}
+
+.form-input input {
+  background-color: #24314C;
+  border: 1px solid #FFC228;
+}
+
+.form-input input::-webkit-input-placeholder {
+  color: #FFE7A9;
+}
+
+.form-input input:-ms-input-placeholder {
+  color: #FFE7A9;
+}
+
+.form-input input::-ms-input-placeholder {
+  color: #FFE7A9;
+}
+
+.form-input input::placeholder {
+  color: #FFE7A9;
+}
+
+.form-input button {
+  background-color: #D78E00;
+  border: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .pPortalTitleContainer {
+    background: #000;
+  }
+  .pPortalTitleContainer > div.row:first-child > div img {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 768px) and (max-width: 1023px) {
+  .overlay {
+    padding: 2rem !important;
+    margin: 0 !important;
+  }
+  .overlay > div > div:first-child p:first-child {
+    margin: 0px !important;
+    margin-top: 3rem !important;
+  }
+  .left-element-with-background-image {
+    height: 100vh;
+  }
+  .left-element-with-background-image h1 {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-weight: lighter;
+    margin-top: 2rem !important;
+  }
+  .form-registration > div {
+    width: 75% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .header-bg {
+    color: #000;
+  }
+  .header-bg .logo-bg {
+    width: 100%;
+  }
+  .header-bg .row {
+    position: relative;
+  }
+  .header-bg .header-menu {
+    position: absolute;
+    right: -20;
+    bottom: 40;
+  }
+  .header-bg .header-menu nav span {
+    font-size: 15px !important;
+  }
+  .header-bg .header-menu nav .navbar-toggler {
+    width: 50%;
+    color: transparent;
+    border-color: transparent;
+  }
+  .header-bg .header-menu nav #menuIcon {
+    background-image: url("../assets/burger.png");
+    height: 25px;
+    width: 25px;
+    background-size: 25px;
+  }
+  .btop {
+    position: relative;
+    top: 0;
+    border-bottom: 15px solid #264caa;
+  }
+  .btop p {
+    background-color: #264caa;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  footer.responsive-footer .logo {
+    background-color: #fff;
+    border-radius: 2rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .overlay {
+    padding: 2rem !important;
+    margin: 0 !important;
+  }
+  .overlay > div > div:first-child p:first-child {
+    margin: 0px !important;
+    margin-top: 3rem !important;
+  }
+  .overlay > div > div:last-child p:first-child {
+    margin: 0px !important;
+    margin-top: 2rem !important;
+    padding: 0px !important;
+    text-align: center;
+    font-size: 20px !important;
+  }
+  .left-element-with-background-image {
+    height: 100vh;
+  }
+  .left-element-with-background-image h1 {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: 2rem !important;
+    font-size: 35px !important;
+    text-align: center;
+  }
+  .form-registration {
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    bottom: 15px;
+    padding-bottom: 25px !important;
+    background-color: #6B6B6B;
+    -webkit-box-shadow: 1px -9px 10px #6b6b6b;
+            box-shadow: 1px -9px 10px #6b6b6b;
+  }
+  .form-registration h1 {
+    font-size: 42px;
+    margin: 0px 20px 0px 20px;
+  }
+  .form-registration h3 {
+    font-size: 22px !important;
+    font-weight: 400 !important;
+  }
+  .form-registration > div {
+    width: 75% !important;
+  }
+  .form-registration .form-input input {
+    background-color: #6B6B6B;
+    font-weight: lighter;
+  }
+}
+
+.header-bg {
+  color: #000;
+}
+
+.header-bg .logo-bg {
+  width: 100%;
+}
+
+.header-bg .row {
+  position: relative;
+}
+
+.header-bg .header-menu {
+  position: absolute;
+  right: -20;
+  bottom: 40;
+}
+
+.header-bg .header-menu nav span {
+  font-size: 15px !important;
+}
+
+.header-bg .header-menu nav .navbar-toggler {
+  width: 50%;
+  color: transparent;
+  border-color: transparent;
+}
+
+.header-bg .header-menu nav #menuIcon {
+  background-image: url("../assets/burger.png");
+  height: 25px;
+  width: 25px;
+  background-size: 25px;
+}
+
+.btop {
+  position: relative;
+  top: 0;
+  border-bottom: 15px solid #264caa;
+}
+
+.btop p {
+  background-color: #264caa;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+footer.responsive-footer .logo {
+  background-color: #fff;
+  border-radius: 2rem;
+  width: 50% !important;
+}
+
+footer.responsive-footer .parent-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer.responsive-footer .parent-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+footer.responsive-footer .unwpa-text {
+  font-size: 18px !important;
+  line-height: 20px;
+}
+
+footer.responsive-footer .unwpa-info-text {
+  font-size: 22px !important;
+}
+
+footer.footer1 {
+  display: none;
+}
+/*# sourceMappingURL=upcoming-events.css.map */

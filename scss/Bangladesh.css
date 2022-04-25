@@ -1,0 +1,74 @@
+/* image-top warning logo*/
+
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.top-logo{
+    width: 100px;
+    margin-left: 420px;
+    margin-top: 150px;
+  }
+  /*Country Name*/
+  .country-name{
+    margin-top: 58px;
+    margin-left: 317px;
+    color: white;
+  }
+  
+  .card-img-top-bangladesh{
+    margin-top: 40px;
+    align-items: center ;
+  }
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+      font-family: 'Source Sans Pro', sans-serif
+  }
+
+  .container-dropdown{
+    margin-top: 58px;
+    margin-left: 317px;
+  }
+
+  /*Bangladesh Ambassadors Image height*/
+  .card-img-top{
+      height: 350px;
+  }
+
+/*  @media (max-width: 575.98px){
+    .view{
+      background-color: darkblue;
+    }
+  }
+*/
+  .row{
+      padding-left: 29px;
+      padding-right: 29px;
+  }
+
+   /*Bangladesh Ambassadors Image padding*/
+   .view{
+    padding-top: 50px; 
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    background-color: rgb(7, 50, 124);
+  }
+
+  
+

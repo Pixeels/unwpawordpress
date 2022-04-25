@@ -1,0 +1,396 @@
+/* search bar*/
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .searchbar{
+    margin-bottom: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    height: 60px;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 10px;
+    justify-content: right;
+    align-items: right;
+    }
+
+ 
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+  
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:rgb(255, 255, 255);
+    transition: width 0.4s linear;
+    }
+  
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #2400f3;
+    }
+  
+    .search_icon{
+    background: gray;
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+
+       /* WebKit, Edge */
+::-webkit-input-placeholder {
+  color: white;
+}
+/* Firefox 4-18 */
+:-moz-placeholder {
+  color: white;
+  opacity: 1;
+}
+/* Firefox 19+ */
+::-moz-placeholder {
+  color: white;
+  opacity: 1;
+}
+/* IE 10-11 */
+:-ms-input-placeholder {
+  color: white;
+}
+/* Edge */
+::-ms-input-placeholder {
+  color: white;
+}
+/* MODERN BROWSER */
+::placeholder {
+  color: white;
+}
+  
+    
+  .span{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+  }
+  
+  .card.card-image {
+    width: 100%;
+    background-position: center;
+    background-size: cover; }
+    .card.card-image [class*="rgba-"] {
+      border-radius: 0.25rem; }
+  
+  .card.card-cascade .view.view-cascade {
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+    .card.card-cascade .view.view-cascade.gradient-card-header {
+      padding: 1.6rem 1rem;
+      color: #fff;
+      text-align: center; }
+      .card.card-cascade .view.view-cascade.gradient-card-header .card-header-title {
+        font-weight: 500; }
+      .card.card-cascade .view.view-cascade.gradient-card-header .btn-floating {
+        background-color: rgba(255, 255, 255, 0.2); }
+  
+  .card.card-cascade.wider {
+    background-color: transparent;
+    box-shadow: none; }
+    .card.card-cascade.wider .view.view-cascade {
+      z-index: 2; }
+    .card.card-cascade.wider .card-body.card-body-cascade {
+      z-index: 1;
+      margin-right: 4%;
+      margin-left: 4%;
+      background: #fff;
+      border-radius: 0 0 0.25rem 0.25rem;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+      .card.card-cascade.wider .card-body.card-body-cascade .card-footer {
+        margin-right: -1.25rem;
+        margin-left: -1.25rem; }
+    .card.card-cascade.wider.reverse .card-body.card-body-cascade {
+      z-index: 3;
+      margin-top: -1rem;
+      border-radius: 0.25rem;
+      box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+  
+  .card.card-cascade.narrower {
+    margin-top: 1.25rem; }
+    .card.card-cascade.narrower .view.view-cascade {
+      margin-top: -1.25rem;
+      margin-right: 4%;
+      margin-left: 4%; }
+  
+  .card.card-cascade .view.gradient-card-header {
+    padding: 1rem 1rem; }
+  
+  .mdb-color.lighten-3 {
+      background-color: #929fba !important; }
+  
+  .view {
+    position: relative;
+    overflow: hidden;
+    cursor: default; }
+    .view .mask {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-attachment: fixed; }
+    .view img, .view video {
+      position: relative;
+      display: block; }
+    .view video.video-intro {
+      top: 50%;
+      left: 50%;
+      z-index: -100;
+      width: auto;
+      min-width: 100%;
+      height: auto;
+      min-height: 100%;
+      transition: 1s opacity;
+      transform: translateX(-50%) translateY(-50%); }
+  
+  .overlay .mask {
+    opacity: 0;
+    transition: all 0.4s ease-in-out; }
+    .overlay .mask:hover {
+      opacity: 1; }
+  
+  .zoom img, .zoom video {
+    transition: all 0.2s linear; }
+  
+  .zoom:hover img, .zoom:hover video {
+    transform: scale(1.1); }
+  
+  
+    .waves-effect {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent; }
+    .waves-effect .waves-ripple {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      margin-top: -50px;
+      margin-left: -50px;
+      pointer-events: none;
+      background: rgba(0, 0, 0, 0.2);
+      background: radial-gradient(rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.5) 60%, rgba(255, 255, 255, 0) 70%);
+      border-radius: 50%;
+      opacity: 0;
+      transition-property: transform, opacity;
+      transition: all 0.5s ease-out;
+      transform: scale(0) translate(0, 0); }
+    .waves-effect.waves-light .waves-ripple {
+      background: rgba(255, 255, 255, 0.4);
+      background: radial-gradient(rgba(255, 255, 255, 0.2) 0, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 70%); }
+    .waves-effect.waves-classic .waves-ripple {
+      background: rgba(0, 0, 0, 0.2); }
+    .waves-effect.waves-classic.waves-light .waves-ripple {
+      background: rgba(255, 255, 255, 0.4); }
+  
+  .waves-notransition {
+    transition: none !important; }
+  
+  .waves-button,
+  .waves-circle {
+    transform: translateZ(0);
+    -webkit-mask-image: -webkit-radial-gradient(circle, #fff 100%, #000 100%); }
+  
+  .waves-button,
+  .waves-button:hover,
+  .waves-button:visited,
+  .waves-button-input {
+    z-index: 1;
+    font-size: 1em;
+    line-height: 1em;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none; }
+  
+  .waves-button {
+    padding: .85em 1.1em;
+    border-radius: .2em; }
+  
+  .waves-button-input {
+    padding: .85em 1.1em;
+    margin: 0; }
+  
+  .waves-input-wrapper {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: .2em; }
+    .waves-input-wrapper.waves-button {
+      padding: 0; }
+    .waves-input-wrapper .waves-button-input {
+      position: relative;
+      top: 0;
+      left: 0;
+      z-index: 1; }
+  
+  .waves-circle {
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    border-radius: 50%; }
+  
+  .waves-float {
+    -webkit-mask-image: none;
+    box-shadow: 0 1px 1.5px 1px rgba(0, 0, 0, 0.12);
+    transition: all 300ms; }
+    .waves-float:active {
+      box-shadow: 0 8px 20px 1px rgba(0, 0, 0, 0.3); }
+  
+  .waves-block {
+    display: block; }
+  
+  a.waves-effect, a.waves-light {
+    display: inline-block; }
+
+      
+.card-img-top {
+    position: absolute;
+    top: -150px;
+    left: 98%;
+    margin-left: -299px;
+    width: 300px !important;
+    height: 300px;
+    }
+
+.card-div {
+    margin-right: 15px;
+    position: relative;
+    top: -50px;
+}
+
+@media (min-width: 992px) { 
+  .card-body.card-body-cascade{
+    background-color: chartreuse;
+  }
+ }
+
+ .pagination .page-item.active .page-link {
+  color: #fff;
+  background-color: #4285f4;
+  border-radius: 0.125rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: all 0.2s linear; }
+  .pagination .page-item.active .page-link:hover {
+    background-color: #4285f4; }
+
+.pagination .page-item.disabled .page-link {
+  color: #868e96; }
+
+.pagination .page-item .page-link {
+  font-size: 0.9rem;
+  color: #212529;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  transition: all 0.3s linear; }
+  .pagination .page-item .page-link:hover {
+    background-color: #eee;
+    border-radius: 0.125rem;
+    transition: all 0.3s linear; }
+  .pagination .page-item .page-link:focus {
+    background-color: transparent;
+    box-shadow: none; }
+
+.pagination.pagination-lg .page-item .page-link {
+  font-size: 1rem; }
+
+.pagination.pagination-sm .page-item .page-link {
+  font-size: 0.8rem; }
+
+.pagination.pagination-circle .page-item .page-link {
+  margin-right: 2px;
+  margin-left: 2px;
+  border-radius: 50%; }
+  .pagination.pagination-circle .page-item .page-link:hover {
+    border-radius: 50%; }
+
+.pagination.pagination-circle .page-item.active .page-link {
+  border-radius: 50%; }
+
+.pagination.pg-blue .page-item.active .page-link {
+  background-color: #4285f4; }
+  .pagination.pg-blue .page-item.active .page-link:hover {
+    background-color: #4285f4; }
+
+.pagination.pg-red .page-item.active .page-link {
+  background-color: #ff3547; }
+  .pagination.pg-red .page-item.active .page-link:hover {
+    background-color: #ff3547; }
+
+.pagination.pg-teal .page-item.active .page-link {
+  background-color: #2bbbad; }
+  .pagination.pg-teal .page-item.active .page-link:hover {
+    background-color: #2bbbad; }
+
+.pagination.pg-dark-grey .page-item.active .page-link {
+  background-color: #37474f; }
+  .pagination.pg-dark-grey .page-item.active .page-link:hover {
+    background-color: #37474f; }
+
+.pagination.pg-dark .page-item.active .page-link {
+  background-color: #2e2e2e; }
+  .pagination.pg-dark .page-item.active .page-link:hover {
+    background-color: #2e2e2e; }
+
+.pagination.pg-blue-grey .page-item.active .page-link {
+  background-color: #3f729b; }
+  .pagination.pg-blue-grey .page-item.active .page-link:hover {
+    background-color: #3f729b; }
+
+.pagination.pg-amber .page-item.active .page-link {
+  background-color: #ff6f00; }
+  .pagination.pg-amber .page-item.active .page-link:hover {
+    background-color: #ff6f00; }
+
+.pagination.pg-purple .page-item.active .page-link {
+  background-color: #5e35b1; }
+  .pagination.pg-purple .page-item.active .page-link:hover {
+    background-color: #5e35b1; }
+
+.container-dropdown{
+  margin-top: 50px;
+  margin-left: 250px;
+}
