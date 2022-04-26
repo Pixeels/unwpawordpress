@@ -6,12 +6,7 @@
     <link href="assets\homepage\logo.png" rel="icon">
     <link rel="stylesheet" href="scss\style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-
-    <style>
-        body {
-            font-family: 'Poppins';
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
@@ -20,20 +15,20 @@
 
 <!-- Title -->
 <div class="container-fluid m-0 p-0 nonProfTitleContainer" >
-        <div class="container-fluid row m-0 p-0 ">
-            <div class="col-sm-6 p-5 d-flex justify-content-center align-items-center mb-1">
-                <img src="assets\about us\Non-Profit.png" alt="Non-Profit Organization
-                United Nation World Peace Association:
-                Articles of Association" class="img-fluid">
-            </div>
-            <div class="col-sm-6 d-flex mb-5 justify-content-center align-items-center">                
-                <h1 class="text-align-left nonProfTitle"> 
-                  Non-Profit Organization <br>
-                  United Nation World <br >Peace Association:
-                  <br>Articles of Association </h1>
-            </div>
-        </div>
+  <div class="container-fluid row m-0 p-0 ">
+      <div class="col-sm-6 p-5 d-flex justify-content-center mb-1">
+          <img src="assets\about us\Non-Profit.png" alt="Non-Profit Organization
+          United Nation World Peace Association:
+          Articles of Association" class="img-fluid">
+      </div>
+      <div class="col-sm-6 d-flex mb-5 justify-content-center align-items-center">                
+          <h1 class="text-align-left nonProfTitle"> 
+            Non-Profit Organization <br>
+            United Nation World <br >Peace Association:
+            <br>Articles of Association </h1>
+      </div>
   </div>
+</div>
             
 <!--Partnerships -->
 
@@ -149,8 +144,7 @@
               </div>
           </div>
               
-</div> <!-- pPortalTitle Container--> 
-
+</div> 
 
     <!-- Footer Section -->
     <?php include 'includes\footer.php' ?>
