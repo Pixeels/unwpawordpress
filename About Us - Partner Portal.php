@@ -1,23 +1,16 @@
+<?php
+  /* Template Name: Partner Portal*/
+?>
 <html>
-<head>
-    <title>United Nation World Peace</title>
-    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-    <link href="assets\homepage\logo.png" rel="icon">
-    <link rel="stylesheet" href="scss\style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
 <body>
   <!-- Header Section -->
-  <?php include 'includes\header.php' ?>
+  <?php include 'includes/header.php' ?>
 
 <!-- Title -->
 <div class="container-fluid m-0 p-5 pPortalTitleContainer" >
         <div class="container-fluid row m-0 p-0">
             <div class="col-sm-6 pb-5 d-flex justify-content-center py-5 mb-5 pPortalTitleContainerImg">
-                <img src="assets\about us\LOGO.png" alt="" class="img-fluid center">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/LOGO.png" alt="" class="img-fluid center">
             </div>
             <div class="col-sm-6 m-0 pb-5 px-0 mt-5 pPortalTitle">                
                 <h1 class="text-center pPortalTitleDesc"> Partner Portal Access. <br> Commitments. </h1>
@@ -39,7 +32,7 @@
 
                     <div class="container-fluid m-0 pb-5 d-flex justify-content-center partner_disp1">
                             <div class="col-sm-6 align-self-center">  
-                                <img class="image-fluid d-flex mx-auto justify-content-center image_p" alt="world" src="assets\about us\woldforworld.png" >                       
+                                <img class="image-fluid d-flex mx-auto justify-content-center image_p" alt="world" src="assets/about us/woldforworld.png" >                       
                             </div>     
                             <div class="col-sm-5 justify-content-center description_1">
                                 <span class="text-center fs-4 partnerDescription"> 
@@ -52,7 +45,7 @@
 
                     <div class="container-fluid m-0 pb-3 pt-2 d-flex justify-content-center partner_disp2">
                             <div class="col-sm-6 align-self-center">  
-                                <img src="assets\about us\undesa.png" class="image-fluid d-flex mx-auto justify-content-center image_p">                       
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/undesa.png" class="image-fluid d-flex mx-auto justify-content-center image_p">                       
                             </div>     
                             <div class="col-sm-5 justify-content-center mt-5 UNDESA">
                                 <span class="text-center fs-4 partnerDescription"> 
@@ -63,7 +56,7 @@
 
                     <div class="container-fluid m-0 pb-2 pt-2 d-flex justify-content-center partner_disp1">
                             <div class="col-sm-6 align-self-center">  
-                                <img src="assets\about us\UIA.png" class="image-fluid d-flex mx-auto justify-content-center image_p">                       
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/UIA.png" class="image-fluid d-flex mx-auto justify-content-center image_p">                       
                             </div>     
                             <div class="col-sm-5 justify-content-center mt-5 UIR">
                                 <span class="text-center fs-4 partnerDescription"> 
@@ -73,7 +66,7 @@
 
                     <div class="container-fluid m-0 pb-2 pt-2 d-flex justify-content-center partner_disp2">
                             <div class="col-sm-6 align-self-center">  
-                                <img src="assets\about us\ec_logo.png" class="image-fluid d-flex mx-auto justify-content-center image_p">                       
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/ec_logo.png" class="image-fluid d-flex mx-auto justify-content-center image_p">                       
                             </div>     
                             <div class="col-sm-5 justify-content-center mt-5 UNGM">
                                 <span class="text-center fs-4 partnerDescription"> 
@@ -83,7 +76,7 @@
 
                     <div class="container-fluid m-0 pb-2 pt-2 d-flex justify-content-center partner_disp1">
                             <div class="col-sm-6 align-self-center UNPP_cont">  
-                                <img src="assets\about us\UPP.png" class="image-fluid d-flex mx-auto justify-content-center UNPP_img">                       
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/UPP.png" class="image-fluid d-flex mx-auto justify-content-center UNPP_img">                       
                             </div>     
                             <div class="col-sm-5 justify-content-center mt-5 UNPP">
                                 <span class="text-center fs-4 partnerDescription"> 
@@ -93,7 +86,7 @@
 
                     <div class="container-fluid m-0 pb-2 pt-2 d-flex justify-content-center partner_disp2">
                             <div class="col-sm-6 align-self-center">  
-                                <img src="assets\about us\VolunteerMatch.png" class="image-fluid d-flex mx-auto justify-content-center image_p">                       
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/VolunteerMatch.png" class="image-fluid d-flex mx-auto justify-content-center image_p">                       
                             </div>     
                             <div class="col-sm-5 mt-5 justify-content-center VM">
                                 <span class="text-center fs-4 partnerDescription"> 
@@ -112,11 +105,11 @@
                     <div class="container-fluid m-0 pb-5 d-flex justify-content-center">
                         <div class="row"> 
                             <div class="align-self-center w-50 unhcr">  
-                                <img src="assets\about us\unhcr.jpeg" class="image-fluid d-flex float-end">                       
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/unhcr.jpeg" class="image-fluid d-flex float-end">                       
                             </div>     
                         
                             <div class="justify-content-center align-middle w-50">  
-                                <img src="assets\about us\unicef.png" class="image-fluid d-flex float-start unicef">                       
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/unicef.png" class="image-fluid d-flex float-start unicef">                       
                             </div> 
                         </div>
                     </div>
@@ -128,6 +121,6 @@
 
 
     <!-- Footer Section -->
-    <?php include 'includes\footer.php' ?>
+    <?php include 'includes/footer.php' ?>
 </body>
 </html>

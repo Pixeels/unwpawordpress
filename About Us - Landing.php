@@ -1,28 +1,22 @@
+<?php
+  /* Template Name: Mission and Vision*/
+?>
 <html>
-<head>
-    <title>United Nation World Peace</title>
-    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-    <link href="assets\homepage\logo.png" rel="icon">
-    <link rel="stylesheet" href="scss\style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
 <body>
   <!-- Header Section -->
-  <?php include 'includes\header.php' ?>
+  <?php include 'includes/header.php' ?>
 
   <!-- Title -->
   <div class="container-fluid m-0 p-0 aboutTitleContainer" >
     <div class="row m-0 p-0 align-items-center aboutUsTitle">
         <div class="col-sm-4 p-0 px-0 mt-10 mb-10 blobCont">
-        <img src="assets\about us\bg-paya1.png" alt="" class="img-fluid float-sm-start bg_blob1">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/bg-paya1.png" alt="" class="img-fluid float-sm-start bg_blob1">
         </div>
         <div class="col-sm-2 p-0 px-0 mt-10 mb-10 titleCont">
          <h1 class="text-center fw-bold titleDesc"> About Us  </h1>
         </div>
         <div class="col-sm-6 m-0 px-0 py-5 container-fluid d-flex justify-content-center align-items-center titleLogo">
-          <img src="assets\about us\logo.png" alt="" class="img-fluid aboutLogo">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/logo.png" alt="" class="img-fluid aboutLogo">
         </div>
     </div>    
   </div>
@@ -65,6 +59,6 @@
     </div>
   </div>
     <!-- Footer Section -->
-    <?php include 'includes\footer.php' ?>
+    <?php include 'includes/footer.php' ?>
 </body>
 </html>

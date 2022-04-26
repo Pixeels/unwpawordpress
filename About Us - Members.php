@@ -1,28 +1,22 @@
+<?php
+  /* Template Name: Members*/
+?>
 <html>
-<head>
-    <title>United Nation World Peace</title>
-    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-    <link href="assets\homepage\logo.png" rel="icon">
-    <link rel="stylesheet" href="scss\style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
 <body>
   <!-- Header Section -->
-  <?php include 'includes\header.php' ?>
+  <?php include 'includes/header.php' ?>
 
     <!-- Title -->
     <div class="container-fluid m-0 p-0 memberTitleContainer">
         <div class="row m-0 p-o memberTitleCont2">
             <div class="col-sm-4 p-0 px-0 mt-0 mb-0 ">
-                <img src="assets\about us\bg-paya1.png" alt="" class="img-fluid float-sm-start bg_blob2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/bg-paya1.png" alt="" class="img-fluid float-sm-start bg_blob2">
             </div>
             <div class="col-sm-2 p-5 mt-5 titleCont">
                 <h1 class="text-center memberTitle"> United Nations <br> World Peace </h1>
             </div>
             <div class="col-sm-6 m-0 px-0 py-5 mb-5 memberTitleImg">
-                <img src="assets\about us\UNWPA-SDG-LOGO.png" alt="" class="img-fluid center">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/UNWPA-SDG-LOGO.png" alt="" class="img-fluid center">
             </div>            
         </div>
 
@@ -41,7 +35,7 @@
             <div class="row m-0 p-0">
                 <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard0">
                     <div class="p-2 memberImage">
-                        <img src="assets\about us\MIA.png" class="img-fluid">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/MIA.png" class="img-fluid">
                     </div>
                     <div class="memberDesc0">
                         <p class="text-center memberName">Fusao Kitagawa </p> <br>
@@ -54,28 +48,28 @@
                 <div class="row m-0 p-0 container-fluid memberRow">
                     <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1">
                         <div class="memberImage2">
-                            <img src="assets\about us\MIA.png" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/MIA.png" class="img-fluid">
                             <p class="text-center memberName2"> Inoue Tadaaki </p>
                             <p class="text-center memberPos2"> Director </p>
                         </div>
                     </div>
                     <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1">
                         <div class="memberImage2">
-                            <img src="assets\about us\MIA.png" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/MIA.png" class="img-fluid">
                             <p class="text-center memberName2"> Kazuaki Tanaka </p>
                             <p class="text-center memberPos2"> Director </p>
                         </div>
                     </div>
                     <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1">
                         <div class="memberImage2">
-                            <img src="assets\about us\MIA.png" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/MIA.png" class="img-fluid">
                             <p class="text-center memberName2"> Hirome Abe </p>
                             <p class="text-center memberPos2"> Director </p>
                         </div>
                     </div>
                     <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1">
                         <div class="memberImage2">
-                            <img src="assets\about us\MIA.png" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/MIA.png" class="img-fluid">
                             <p class="text-center memberName2"> Akio Hosokawa </p>
                             <p class="text-center memberPos2"> Director </p>
                         </div>
@@ -88,28 +82,28 @@
                 <div class="row m-0 p-0 container-fluid memberRow">
                     <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1">
                         <div class="memberImage2">
-                            <img src="assets\about us\MIA.png" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/MIA.png" class="img-fluid">
                             <p class="text-center memberName2"> Masanori Takada </p>
                             <p class="text-center memberPos2"> Director </p>
                         </div>
                     </div>
                     <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1">
                         <div class="memberImage2">
-                            <img src="assets\about us\MIA.png" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/MIA.png" class="img-fluid">
                             <p class="text-center memberName2"> Yuji Inujima </p>
                             <p class="text-center memberPos2"> Director </p>
                         </div>
                     </div>
                     <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1">
                         <div class="memberImage2">
-                            <img src="assets\about us\MIA.png" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/MIA.png" class="img-fluid">
                             <p class="text-center memberName2"> Goto Marina </p>
                             <p class="text-center memberPos2"> Director </p>
                         </div>
                     </div>
                     <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1">
                         <div class="memberImage2">
-                            <img src="assets\about us\MIA.png" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/MIA.png" class="img-fluid">
                             <p class="text-center memberName2"> Fukuda Tetsuo </p>
                             <p class="text-center memberPos2"> Director </p>
                         </div>
@@ -121,7 +115,7 @@
                 <div class="row m-0 p-0 container-fluid memberRow">
                     <div class="col-sm-4 container-fluid d-flex justify-content-center align-items-center memberCard1">
                         <div class="memberImage3">
-                            <img src="assets\about us\MIA.png" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/MIA.png" class="img-fluid">
                             <p class="text-center memberName2"> Kawana Hidekazu </p>
                             <p class="text-center memberPos2"> Supervisor </p>
                         </div>
@@ -133,6 +127,6 @@
 </div>
 
     <!-- Footer Section -->
-    <?php include 'includes\footer.php' ?>
+    <?php include 'includes/footer.php' ?>
 </body>
 </html>

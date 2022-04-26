@@ -1,24 +1,16 @@
+<?php
+  /* Template Name: Partnership*/
+?>
 <html>
-<head>
-    <title>United Nation World Peace</title>
-    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-    <link href="assets\homepage\logo.png" rel="icon">
-    <link rel="stylesheet" href="scss\style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
-
 <body>
   <!-- Header Section -->
-  <?php include 'includes\header.php' ?>
+  <?php include 'includes/header.php' ?>
 
   <!-- Title -->
   <div class="container-fluid m-0 p-0 partnersTitleContainer" >
     <div class="container-fluid row m-0 p-0 d-flex justify-content-center align-items-center partnersTitleImgCont">
         <div class="col-sm-6 p-5 d-flex justify-content-center align-items-center partnersTitle">
-            <img src="assets\about us\heart-hands.png" alt="" class="img-fluid hearthands">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/heart-hands.png" alt="" class="img-fluid hearthands">
             <div class="overlayTitle">
             <h1> Partnership</h1>
           </div>
@@ -40,7 +32,7 @@
 
                 <div class="card col-sm-6 m-0 p-0 pb-5 d-flex justify-content-center align-items-center partnersCard1">
                     <div class="card-body ">
-                    <img src="assets\about us\CNADH.png" alt="CNADH" class="img-fluid partnersImg1"> 
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/CNADH.png" alt="CNADH" class="img-fluid partnersImg1"> 
                         <h5 class="text-center"> ENTRE NATIONAL DES DROITS DE L`HOMME IS
                             AN AUTHORIZED PARTNER OF UNWPA
                         </h5>
@@ -49,7 +41,7 @@
 
                 <div class="card col-sm-6 m-0 pb-5 d-flex justify-content-center align-items-center partnersCard">                
                     <div class="card-body ">
-                        <img src="assets\about us\SCM-ITC.png" alt="SCM-ITC" class="img-fluid partnersImg2"> 
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/SCM-ITC.png" alt="SCM-ITC" class="img-fluid partnersImg2"> 
                             <h5 class="text-center scmtxt"> SCM-ITC INTERNATIONAL TRAINING CENTER 
                                 IS AN AUTHORIZED PARTNER OF UNWPA
                             </h5>
@@ -63,6 +55,6 @@
 
 
     <!-- Footer Section -->
-    <?php include 'includes\footer.php' ?>
+    <?php include 'includes/footer.php' ?>
 </body>
 </html>

@@ -1,23 +1,16 @@
+<?php
+  /* Template Name: Non-Profit Organization*/
+?>
 <html>
-<head>
-    <title>United Nation World Peace</title>
-    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-    <link href="assets\homepage\logo.png" rel="icon">
-    <link rel="stylesheet" href="scss\style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
 <body>
   <!-- Header Section -->
-  <?php include 'includes\header.php' ?>
+  <?php include 'includes/header.php' ?>
 
 <!-- Title -->
 <div class="container-fluid m-0 p-0 nonProfTitleContainer" >
   <div class="container-fluid row m-0 p-0 ">
       <div class="col-sm-6 p-5 d-flex justify-content-center mb-1">
-          <img src="assets\about us\Non-Profit.png" alt="Non-Profit Organization
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/Non-Profit.png" alt="Non-Profit Organization
           United Nation World Peace Association:
           Articles of Association" class="img-fluid">
       </div>
@@ -147,6 +140,6 @@
 </div> 
 
     <!-- Footer Section -->
-    <?php include 'includes\footer.php' ?>
+    <?php include 'includes/footer.php' ?>
 </body>
 </html>

@@ -1,17 +1,10 @@
+<?php
+  /* Template Name: What we do*/
+?>
 <html>
-<head>
-    <title>United Nation World Peace</title>
-    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-    <link href="assets\homepage\logo.png" rel="icon">
-    <link rel="stylesheet" href="scss\style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-</head>
 <body>
   <!-- Header Section -->
-  <?php include 'includes\header.php' ?>
+  <?php include 'includes/header.php' ?>
 
   <!-- Title -->
   <div class="container-fluid m-0 p-0 wwdTitleContainer">
@@ -20,7 +13,7 @@
         <h1> What we do. </h1>
       </div>
       <div class="col-sm-6 m-0 px-0 py-5 d-flex justify-content-center align-items-center wwdTitleImg">
-        <img src="assets\about us\sdg.png" alt="" class="img-fluid">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/sdg.png" alt="" class="img-fluid">
       </div>
 
     </div>
@@ -36,7 +29,7 @@
           Health Care, Education and Welfare.
       </div>
       <div class="col-sm-6 m-0 d-flex p-5 justify-content-center align-items-center wwdDescImgCont">
-        <img src="assets\about us\logo.png" alt="" class="img-fluid">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/logo.png" alt="" class="img-fluid">
       </div>
     </div>
   </div>
@@ -44,7 +37,7 @@
   <div class="container-fluid m-0 p-0 wwdDescBg">
     <div class="row m-0 p-0 wwdDesc2">
       <div class="col-sm-4 m-0 d-flex p-5 justify-content-center align-items-center wwdDescImgCont2">
-        <img src="assets\about us\mission.png" alt="" class="img-fluid">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/mission.png" alt="" class="img-fluid">
       </div>
 
       <div class="col-sm-8 p-0 pt-5 pb-5 container-fluid d-flex justify-content-center align-items-center wwdText2">
@@ -97,7 +90,7 @@
         <h3 class="text-center"> <strong> 17 SDG’s Agenda </strong><br><br> </h3>
       </div>
       <div class="col-sm-12 m-0 d-flex justify-content-center align-items-center">
-        <img src="assets\about us\sdg2.jpg" alt="" class="img-fluid">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/sdg2.jpg" alt="" class="img-fluid">
       </div>
     </div>
   </div>
@@ -105,6 +98,6 @@
   </div>
 
     <!-- Footer Section -->
-    <?php include 'includes\footer.php' ?>
+    <?php include 'includes/footer.php' ?>
 </body>
 </html>

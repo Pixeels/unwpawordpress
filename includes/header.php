@@ -101,7 +101,7 @@
                                         <a href="/unwpa/About Us - Members.php">UNWPA Japan Board Members</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="/unwpa/About Us - Partners.php">Partner Portal Access.</a>
+                                        <a href="/unwpa/About Us - Partner Portal.php">Partner Portal Access.</a>
                                     </li>
                                     <li class="my-2">
                                         <a href="/unwpa/about us - nonprofit.php">Non-Profit Organization United Nation World Peace Association: Articles of Association</a>
