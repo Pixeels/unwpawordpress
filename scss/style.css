@@ -3,11 +3,6 @@ body {
   font-family: 'Poppins', sans-serif !important;
 }
 
-.body {
-  font-family: "Poppins";
-
-}
-
 #navbarNavDropdown ul li a:link {
   text-decoration: none;
   -webkit-transform: 1s;
@@ -18,7 +13,6 @@ body {
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-thickness: 2px;
-
 }
 
 .header-bg {
@@ -114,6 +108,136 @@ body {
 ul.social-media li img {
   width: 20px;
   display: inline;
+}
+
+.left-element-with-background-image {
+  position: relative;
+  background-image: url("../assets/upcoming-events/CONFERENCE.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+img {
+  max-width: 100%;
+}
+
+.gallery_box li {
+  width: 33.333333%;
+  max-width: 100%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery_box {
+  padding: 0;
+  display: flow-root;
+}
+
+.gallery_box li:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.gallery_box li img {
+  -webkit-transition: transform 0.5s ease;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.gallery_box li:nth-child(even) {
+  height: 304px;
+}
+
+.gallery_box li:nth-child(odd) {
+  height: 438px;
+}
+
+.gallery_box li:nth-child(odd) .box_data {
+  background: rgba(0, 0, 0, 0.17);
+}
+
+.gallery_box li:nth-child(even) .box_data {
+  background: rgba(0, 44, 255, 0.27);
+}
+
+.gallery_box .box_data {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+}
+
+.gallery_box .box_data span {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  font-size: 24px;
+}
+
+.gallery_box li:hover .box_data {
+  background: rgba(255, 0, 39, 0.55);
+}
+
+.left-color-overlay {
+  background-image: linear-gradient(269deg, #24314C, #24314c85);
+}
+
+.right-bg {
+  background-color: #24314C;
+}
+
+.form-registration h1 {
+  color: #f4b63c;
+}
+
+.form-registration h3 {
+  color: #ffda7e;
+}
+
+.form-input input {
+  background-color: #24314C;
+  border: 1px solid #ffc228;
+}
+
+.form-input input::-webkit-input-placeholder {
+  color: #ffe7a9;
+}
+
+.form-input input:-ms-input-placeholder {
+  color: #ffe7a9;
+}
+
+.form-input input::-ms-input-placeholder {
+  color: #ffe7a9;
+}
+
+.form-input input::placeholder {
+  color: #ffe7a9;
+}
+
+.form-input button {
+  background-color: #d78e00;
+  border: none;
 }
 
 .latest-news-and-events .news-and-events-container {
@@ -1077,7 +1201,7 @@ ul.advocacy-list li::before {
     border-color: transparent;
   }
   .header-bg .header-menu nav #menuIcon {
-    background-image: url("../assets/burger.png");
+    background-image: url("x../assets/burger.png");
     height: 25px;
     width: 25px;
     background-size: 25px;

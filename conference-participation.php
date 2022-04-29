@@ -26,7 +26,7 @@
                 <h3 class="fw-bold">Bangladesh</h3>
                 <p class="fw-bold">H.E MD. Firoz Alam Sumon</p>
                 <p  class="my-5">I joined the session of The United Nations General Assembly (UNGA), with the Honorable Prime Minister Sheikh Hasina, The People’s Repablic of Bangladesh</p>
-                <button class="btn btn-primary">More</button>
+                <a href="#post1" class="btn btn-primary">More</a>
             </div>
         </div>
 
@@ -34,11 +34,13 @@
             <div class="col-sm-6 p-0 d-none">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/conference-participation/myanmar1.jpg" class="w-100" alt="">
             </div>
+            
             <div class="col-sm-6 p-0 pt-5 pe-5">
                 <h3 class="fw-bold">MYANMAR</h3>
                 <p class="fw-bold">H.E Dr.Ven Sobhita</p>
                 <p  class="my-5">Maher Nasser, Director, Outreach Division, United Nations Department of Global Communications</p>
-                <button class="btn btn-primary">More</button>
+                <a href="#post2" class="btn btn-primary">More</a>
+
             </div>
             <div class="col-sm-6 p-0 d-block">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/conference-participation/myanmar1.jpg" class="w-100" alt="">
@@ -57,15 +59,16 @@
                     Professional Certification Program for Instructors to upgrade
                     instructors to cover the minimum Dip.SCM(ITC) standard as
                     prescribed by ITC/WTO/UNCTAD.</p>
-                <button class="btn btn-primary">More</button>
+                <a href="#post3" class="btn btn-primary">More</a>
             </div>
         </div>
     </div>
     <!-- Post1 Section -->
-    <div class="container-fluid post1">
+    <div class="container-fluid post1" id="post1">
         <div class="row w-100 ps-2 mt-5" style="position: absolute; z-index: 2; top: 10%;">
-            <div class="col-sm-6">
+            <div class="col-sm-6" style="position: relative;">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/conference-participation/myanmar1.jpg" class="img-fluid" alt="">
+                <a href="/wordpress/conference_participation_myanmar_more/" class="btn btn-outline-light fw-bold" style="position: absolute; left: 3rem; bottom: 5rem;">More</a>
             </div>
             <div class="col-sm-6 ps-5">
                 <h3>MYANMAR</h3>
@@ -188,7 +191,7 @@
     <div class="post1-1"></div>
 
     <!-- Post2 Section -->
-    <div class="container-fluid post2 mb-5">
+    <div class="container-fluid post2 mb-5" id="post2">
         <div class="row w-100 ps-5 mt-5">
             <div class="col-sm-6 ps-5 pt-5">
                 <h3 class="fw-bold">BANGLADESH</h3>
@@ -199,17 +202,19 @@
                         Bangladesh</p>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/conference-participation/bangladesh1.jpg" class="img-fluid w-75" alt="">
+            <div class="col-sm-6" style="position: relative;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/conference-participation/bangladesh1.jpg" class="img-fluid w-75" alt="">
+                <a href="/wordpress/conference_participation_thailand_more/" class="btn btn-outline-light fw-bold" style="position: absolute; left: 3rem; bottom: 5rem;">More</a>
             </div>
         </div>
     </div>
 
      <!-- Post3 Section -->
-     <div class="container-fluid post3">
+     <div class="container-fluid post3" id="post3">
         <div class="row w-75 ps-5 mt-5" style="position: absolute; z-index: 2; top: 10%;">
-            <div class="col-sm-6">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/conference-participation/myanmar1.jpg" class="img-fluid" alt="">
+            <div class="col-sm-6" style="position: relative;">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/conference-participation/myanmar1.jpg" class="img-fluid" alt="">
+                <a href="/wordpress/conference_participation_bangladesh_more/" class="btn btn-outline-light fw-bold" style="position: absolute; left: 3rem; bottom: 5rem;">More</a>
             </div>
             <div class="col-sm-6 ps-5">
                 <h3>MYANMAR</h3>
@@ -232,17 +237,17 @@
                 <div class="gallery-layer d-flex align-items-end bd-highlight mb-3">
                     <div class="gallery-context ms-5 mb-5 pb-5">
                         <h5 class="fs-2 fw-light text-light">Myanmar</h5>
-                    <a href="" class="text-decoration-none text-light fw-5 mb-5 pb-3">See More</a>
+                    <a href="/wordpress/gallery_myamar_more/" class="text-decoration-none text-light fw-5 mb-5 pb-3">See More</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-5">
                 <div class="small-gallery-layer">
-                <img class="img-fluid w-75 m-3 mt-0" src="assets/conference-participation/8c2fc18d96dcdb965aebb9627f63295f_3ae34f8c36e72a8949a83b0472b03be1.jpg" alt="">
+                <img class="img-fluid w-75 m-3 mt-0" src="<?php echo get_template_directory_uri(); ?>/assets/conference-participation/8c2fc18d96dcdb965aebb9627f63295f_3ae34f8c36e72a8949a83b0472b03be1.jpg" alt="">
                     <div class="layer-img my-3 ms-3"></div>
                 </div>
                 <div class="small-gallery-layer">
-                    <img class="img-fluid w-75 m-3" src="assets/conference-participation/be16a689d6a2f2f34037da26617f3ead_4989dfbcb6ba1ea9737c9e18e7a63d0e.jpg" alt="">
+                    <img class="img-fluid w-75 m-3" src="<?php echo get_template_directory_uri(); ?>/assets/conference-participation/be16a689d6a2f2f34037da26617f3ead_4989dfbcb6ba1ea9737c9e18e7a63d0e.jpg" alt="">
                     <div class="layer-img my-3 ms-3"></div>
                 </div>
             </div>
@@ -250,11 +255,11 @@
         <div class="row">
             <div class="col-sm-5">
                 <div class="small-gallery-layer">
-                    <img class="img-fluid w-75 m-3 mt-0" src="assets/conference-participation/thailand1.jpg" alt="">
+                    <img class="img-fluid w-75 m-3 mt-0" src="<?php echo get_template_directory_uri(); ?>/assets/conference-participation/thailand1.jpg" alt="">
                     <div class="layer-img my-3 ms-3"></div>
                 </div>
                 <div class="small-gallery-layer">
-                    <img class="img-fluid w-75 m-3" src="assets/conference-participation/d4139627747ef87f3c98637ad1b3f6c3_1057322745d5cdd6d6ecfb6eb833d7e0.jpg" alt="">
+                    <img class="img-fluid w-75 m-3" src="<?php echo get_template_directory_uri(); ?>/assets/conference-participation/d4139627747ef87f3c98637ad1b3f6c3_1057322745d5cdd6d6ecfb6eb833d7e0.jpg" alt="">
                     <div class="layer-img my-3 ms-3"></div>
                 </div>
             </div>
@@ -263,7 +268,7 @@
                 <div class="gallery-layer d-flex align-items-end bd-highlight mb-3">
                     <div class="gallery-context ms-5 mb-5 pb-5">
                         <h5 class="fs-2 fw-light text-light">Thailand</h5>
-                    <a href="" class="text-decoration-none text-light fw-5 mb-5 pb-3">See More</a>
+                    <a href="/wordpress/gallery_thailand_more/" class="text-decoration-none text-light fw-5 mb-5 pb-3">See More</a>
                     </div>
                 </div>
             </div>

@@ -124,7 +124,6 @@ body {
         }
     }
 
-    
 }
 
 .logo-bg {
@@ -146,6 +145,84 @@ ul.social-media {
     }
 }
 
+.left-element-with-background-image {
+    position: relative;
+   background-image: url("../assets/upcoming-events/CONFERENCE.jpg");
+   background-size: cover;
+   width: 100%;
+   height: 90vh;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;            
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+img{ max-width:100%;}
+
+.gallery_box li{ width:33.333333%; max-width: 100% ; display:inline-block; float: left; text-align: center; overflow: hidden;    position: relative;}
+.gallery_box{ padding:0;display: flow-root;}
+
+.gallery_box li:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.gallery_box li img{-webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;}
+.gallery_box li:nth-child(even) {
+    height: 304px;
+}
+.gallery_box li:nth-child(odd) {
+    height: 438px; 
+}
+.gallery_box li:nth-child(odd) .box_data{ background:rgba(0,0,0,0.17) }
+.gallery_box li:nth-child(even) .box_data{ background:rgba(0,44,255,0.27) }
+.gallery_box .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:#fff;}
+.gallery_box .box_data span{ position:absolute; top: 50%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.gallery_box li:hover .box_data{ background:rgba(255,0,39,0.55)}
+
+.left-color-overlay {
+   background-image: linear-gradient(269deg, #24314C, #24314c85);
+}
+
+.right-bg {
+    background-color: #24314C;
+}
+
+.form-registration {
+    h1 {
+        color: $formColor1;
+    }
+
+    h3 {
+        color: $formColor2;
+    }
+}
+
+
+.form-input {
+    input {
+        background-color: #24314C;
+        border: 1px solid $formColorStroke;
+    }
+
+    input::placeholder {
+        color:$formColor3;
+    }
+
+    button {
+        background-color: $formBgColor;
+        border: none;
+    }
+}
 .latest-news-and-events {
     .news-and-events-container {
         border: 5px solid $borderColor1;
