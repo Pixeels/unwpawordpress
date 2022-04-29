@@ -1,5 +1,5 @@
 <?php
-  /* Template Name: Bangladesh */
+  /* Template Name: Malaysia */
 ?>
 
 <!DOCTYPE html>
@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>unwpa-bangladesh-ambassadors</title>
+  <title>unwpa-malaysia-ambassadors</title>
   <link rel="stylesheet" href="scss\Bangladesh.css">
   <link rel="stylesheet" href="scss\ambassador_style.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -96,14 +96,14 @@
                 </div>
                 <!-- COUNTRIES CATEGORY LIST END-->
                 <div class="container country-name">
-                  <h1 class="responsive-font" style="background-image: linear-gradient(blue, orange);"><div class="spinner-grow text-light mb-md-1 mb-lg-2 mb-xl-2.8" style="animation-duration: 2s;" role="status"></div>BANGLADESH<div class="spinner-grow text-light mb-md-1 mb-lg-2 mb-xl-2.8" style="animation-duration: 2s;" role="status"></div></h1>
+                  <h1 class="responsive-font" style="background-image: linear-gradient(blue, orange);"><div class="spinner-grow text-light mb-md-1 mb-lg-2 mb-xl-2.8" style="animation-duration: 2s;" role="status"></div>MALAYSIA<div class="spinner-grow text-light mb-md-1 mb-lg-2 mb-xl-2.8" style="animation-duration: 2s;" role="status"></div></h1>
                 </div>
               </div>
               <div style="text-align-left"> 
                 <!--<div class="hr-line bg-warning flex-fill rounded">
                 </div>-->
                 <div class="image-top text-white" style="font-size:2vw;">
-                  <p class="intro bg-gradient">UNWPA BANGLADESH AMBASSADORS</p> 
+                  <p class="intro bg-gradient">UNWPA MALAYSIA AMBASSADORS</p> 
                 </div>
               </div>
         
@@ -115,7 +115,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="assets/my-logo/1.1png" class="card-img-top"
+                  <img src="assets/my-logo/Malaysia.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>
@@ -135,7 +135,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="assets/my-logo/2.png" class="card-img-top"
+                  <img src="assets/my-logo/Malaysia2.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>
@@ -156,7 +156,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="assets/my-logo/3.png" class="card-img-top"
+                  <img src="assets/my-logo/Malaysia3.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>
@@ -171,171 +171,7 @@
               </div>
           </div>
           <!-- Grid column end-->
-          
-          <!-- Grid column -->
-          <div class="column col-lg-4 col-md-12 mb-4">
-              <div class="card bg-dark">
-                <!-- Card image -->
-                <div class="view overlay text-center">
-                  <img src="assets/my-logo/4.png" class="card-img-top"
-                    alt="">
-                  <a>
-                    <div class="mask"></div>
-                  </a>
-                  <div class="text-white mt-5">
-                    <div class="ambassador-4">H.E MITALY RANI KARMAKAR</div>
-                    <div class="side-logo bg-warning rounded p-1 flex-fill">
-                    </div>
-                    <p class="card-text fs-6 fst-italic">REPRESENTATIVE OF POVERTY AND MEDICAL (BANGLADESH)</p>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <!-- Grid column end-->
-          
-          <!-- Grid column -->
-          <div class="column col-lg-4 col-md-12 mb-4">
-              <div class="card bg-dark">
-                <!-- Card image -->
-                <div class="view overlay text-center">
-                  <img src="assets/my-logo/5.png" class="card-img-top"
-                    alt="">
-                  <a>
-                    <div class="mask"></div>
-                  </a>
-                  <div class="text-white mt-5">
-                    <div class="ambassador-5">H.E MD ALAMGIR HOSSAIN</div>
-                    <div class="side-logo bg-warning rounded p-1 flex-fill">
-                    </div>
-                    <p class="card-text fs-6 fst-italic">DIRECTOR FOR PLANNING ACTIVITIES (BANGLADESH)<br></p>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <!-- Grid column end-->
 
-          <!-- Grid column -->
-          <div class="column col-lg-4 col-md-12 mb-4">
-              <div class="card bg-dark">
-                <!-- Card image -->
-                <div class="view overlay text-center">
-                  <img src="assets/my-logo/6.png" class="card-img-top"
-                    alt="">
-                  <a>
-                    <div class="mask"></div>
-                  </a>
-                  <div class="text-white mt-5">
-                    <div class="ambassador-6">H.E MD IYASIR ARAFAT</div>
-                    <div class="side-logo bg-warning rounded p-1 flex-fill">
-                    </div>
-                    <p class="card-text fs-6 fst-italic">REPRESENTATIVE FOR ENVIRONMENT AND DISASTER (BANGLADESH)</p>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <!-- Grid column end-->
-
-          <!-- Grid column -->
-          <div class="column col-lg-4 col-md-12 mb-4">
-              <div class="card bg-dark">
-                <!-- Card image -->
-                <div class="view overlay text-center">
-                  <img src="assets/my-logo/7.png" class="card-img-top"
-                    alt="">
-                  <a>
-                    <div class="mask"></div>
-                  </a>
-                  <div class="text-white mt-5">
-                    <div class="ambassador-7">H.E MOHAMMAD UZZAL HOSSAIN</div>
-                    <div class="side-logo bg-warning rounded p-1 flex-fill">
-                    </div>
-                    <p class="card-text fs-6 fst-italic">PRESIDENT (BANGLADESH HEAD REPRESENTATIVE)</p>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <!-- Grid column end-->
-
-          <!-- Grid column -->
-          <div class="column col-lg-4 col-md-12 mb-4">
-              <div class="card bg-dark">
-                <!-- Card image -->
-                <div class="view overlay text-center">
-                  <img src="assets/my-logo/8.png" class="card-img-top"
-                    alt="">
-                  <a>
-                    <div class="mask"></div>
-                  </a>
-                  <div class="text-white mt-5">
-                    <div class="ambassador-8">H.E LOVELY BANDANA SARKER</div>
-                    <div class="side-logo bg-warning rounded p-1 flex-fill">
-                    </div>
-                    <p class="card-text fs-6 fst-italic">REPRESENTATIVE FOR CONSULAR OFFICER (BANGLADESH)</p>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <!-- Grid column end-->
-
-          <!-- Grid column -->
-          <div class="column col-lg-4 col-md-12 mb-4">
-              <div class="card bg-dark">
-                <!-- Card image -->
-                <div class="view overlay text-center">
-                  <img src="assets/my-logo/9.png" class="card-img-top"
-                    alt="">
-                  <a>
-                    <div class="mask"></div>
-                  </a>
-                  <div class="text-white mt-5">
-                    <div class="ambassador-9">H.E MOHAMMAD MILON MIA</div>
-                    <div class="side-logo bg-warning rounded p-1 flex-fill">
-                    </div>
-                    <p class="card-text fs-6 fst-italic">EXECUTIVE DIRECTOR (BANGLADESH)</p>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <!-- Grid column end-->
-
-          <!-- Grid column -->
-          <div class="column col-lg-4 col-md-12 mb-4">
-              <div class="card bg-dark">
-                <!-- Card image -->
-                <div class="view overlay text-center">
-                  <img src="assets/my-logo/10.png" class="card-img-top"
-                    alt="">
-                  <a>
-                    <div class="mask"></div>
-                  </a>
-                  <div class="text-white mt-5">
-                    <div class="ambassador-10">H.E MD FIROZ ALAM SUMON</div>
-                    <div class="side-logo bg-warning rounded p-1 flex-fill">
-                    </div>
-                    <p class="card-text fs-6 fst-italic">DIRECTOR</p>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-        <!-- Grid row end-->
-                <div class="container">
-                  <nav aria-label="Page Navigation rounded-pill">
-                    <ul class="pagination justify-content-center pagination-lg">
-                      <li class="page-item disabled">
-                        <span class="page-link fs-6">Previous</span>
-                      </li>
-                      <li class="page-item" id="1"><a class="page-link fs-6" href="#">1</a></li>
-                      <li class="page-item active" aria-current="page">
-                        <span class="page-link fs-6">2</span>
-                      </li>
-                      <li class="page-item"><a class="page-link fs-6" href="#">3</a></li>
-                      <li class="page-item">
-                        <a class="page-link fs-6" href="#">Next</a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
 </main>   
   <?php include 'includes/footer.php' ?>
   </body>
