@@ -1,19 +1,9 @@
+<?php
+  /* Template Name: About Us - Partners*/
+?>
+
+
 <html>
-<head>
-    <title>United Nation World Peace</title>
-    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-    <link href="assets\homepage\logo.png" rel="icon">
-    <link rel="stylesheet" href="scss\style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-
-    <style>
-        body {
-            font-family: 'Poppins';
-        }
-    </style>
-</head>
-
 <body>
   <!-- Header Section -->
   <?php include 'includes\header.php' ?>

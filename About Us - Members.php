@@ -1,3 +1,7 @@
+<?php
+  /* Template Name: About Us - Members*/
+?>
+
 <html>
 <head>
     <title>United Nation World Peace</title>

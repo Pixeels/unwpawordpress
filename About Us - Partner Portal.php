@@ -1,3 +1,7 @@
+<?php
+  /* Template Name: Partner Portal*/
+?>
+
 <html>
 <head>
     <title>United Nation World Peace</title>

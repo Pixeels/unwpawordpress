@@ -1,3 +1,8 @@
+<?php
+  /* Template Name: Structure Members - More*/
+?>
+
+
 <html lang="en">
 <head>
 <title>Structure Members Page</title>
