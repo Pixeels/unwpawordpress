@@ -1,8 +1,6 @@
 <?php
   /* Template Name: About Us - Partners*/
 ?>
-
-
 <html>
 <body>
   <!-- Header Section -->

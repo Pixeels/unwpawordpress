@@ -1,6 +1,8 @@
 <?php
-  /* Template Name: Mission and Vision*/
+
+  /* Template Name: About Us - Landing*/
 ?>
+
 <html>
 <body>
   <!-- Header Section -->
