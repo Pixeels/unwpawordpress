@@ -10,7 +10,7 @@
 	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
     <!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
-	<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/social-thumb.png"/>
+	<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/social-thumb.png"/> 
 	<meta property="og:url" content=""/>
 	<meta property="og:site_name" content=""/>
 	<meta property="og:description" content=""/>
