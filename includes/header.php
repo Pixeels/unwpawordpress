@@ -37,46 +37,46 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav ">
               <li class="nav-item">
-              <a class="nav-link active text-light fw-bold mx-1" aria-current="page" href="/unwpa/index.php">HOME</a>
+              <a class="nav-link active text-light fw-bold mx-1" href="/wordpress/home/">HOME</a>
               </li>
               <li class="nav-item hoverable_wrap">
-                <a class="nav-link text-light fw-bold mx-1 news-and-updates" href="#">NEWS AND UPDATES</a>
+                <a class="nav-link text-light fw-bold mx-1 news-and-updates" href="/wordpress/articles_and_news/">NEWS AND UPDATES</a>
                 <div class="hoverable-news-and-updates p-3">
                     <span></span>
                     <ul>
                         <li  class="my-2">
-                            <a href="/unwpa/Articles and News.php">Articles and News</a>
+                            <a href="/wordpress/articles_and_news/">Articles and News</a>
                         </li>
                         <li  class="my-2">
-                            <a href="/unwpa/newsAndUpdates.php">Previous Events and Activities</a>
+                            <a href="/wordpress/previous_events_and_activity/">Previous Events and Activities</a>
                         </li>
                     </ul>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light fw-bold mx-1" href="/unwpa/ambassadors.php">AMBASSADORS</a>
+                <a class="nav-link text-light fw-bold mx-1" href="/wordpress/ambassadors/">AMBASSADORS</a>
                
               </li>
               <ul class="navbar-nav">
                 <li class="nav-item hoverable_wrap">
-                    <a class="nav-link text-light fw-bold mx-1 conferences-nav" aria-current="page" href="#">CONFERENCES</a>
+                    <a class="nav-link text-light fw-bold mx-1 conferences-nav" aria-current="page" href="/wordpress/conference_participation/">CONFERENCES</a>
                     <div class="hoverable-conferences p-3">
                         <span></span>
                         <ul>
                             <li class="my-2">
-                                <a href="/unwpa/conference-participation.php">Conference Participation</a>
+                                <a href="/wordpress/conference_participation/">Conference Participation</a>
                             </li>
                             <li class="my-2">
-                                <a href="/unwpa/upcoming-events.php">Upcoming Events</a>
+                                <a href="/wordpress/upcoming_events/">Upcoming Events</a>
                             </li>
                         </ul>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light fw-bold mx-1" href="/unwpa/structureMembers.php">STRUCTURE MEMBERS</a>
+                    <a class="nav-link text-light fw-bold mx-1" href="/wordpress/structure_members/">STRUCTURE MEMBERS</a>
                 </li>
                 <li class="nav-item hoverable_wrap">
-                    <a class="nav-link text-light fw-bold mx-1 about-us-nav" href="#">ABOUT US</a>
+                    <a class="nav-link text-light fw-bold mx-1 about-us-nav" href="/wordpress/about_us/">ABOUT US</a>
                     <div class="hoverable-about-us p-3">
                         <div class="row">
                             <div class="col-sm-6">
@@ -85,26 +85,26 @@
                                         <a href="/unwpa/About Us - Landing.php">Mission and Vision</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="/unwpa/About Us - Partner Portal.php">Partnership</a>
+                                        <a href="/wordpress/partners/">Partnership</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="/unwpa/About Us - What We Do.php">What we do.</a>
+                                        <a href="/wordpress/about_us_what_we_do/">What we do.</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="/unwpa/About Us - Peace Youth Advocacy.php">Peace Youth Advocacy</a>
+                                        <a href="/wordpress/peace_and_youth_advocacy/">Peace Youth Advocacy</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-sm-6">
                                 <ul>
                                     <li class="my-2">
-                                        <a href="/unwpa/About Us - Members.php">UNWPA Japan Board Members</a>
+                                        <a href="/wordpress/about_us_members/">UNWPA Japan Board Members</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="/unwpa/About Us - Partner Portal.php">Partner Portal Access.</a>
+                                        <a href="/wordpress/partner_portal/">Partner Portal Access.</a>
                                     </li>
                                     <li class="my-2">
-                                        <a href="/unwpa/about us - nonprofit.php">Non-Profit Organization United Nation World Peace Association: Articles of Association</a>
+                                        <a href="/wordpress/about_us_nonprofit/">Non-Profit Organization United Nation World Peace Association: Articles of Association</a>
                                     </li>                            
                                 </ul>
                             </div>

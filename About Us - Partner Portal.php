@@ -1,6 +1,10 @@
 <?php
   /* Template Name: Partner Portal*/
 ?>
+<<<<<<< HEAD
+
+=======
+>>>>>>> 0090e9b99c4b06d70777057a6269110e73d1e750
 <html>
 <body>
   <!-- Header Section -->

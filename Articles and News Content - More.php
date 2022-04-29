@@ -1,18 +1,24 @@
+<?php
+  /* Template Name: Articles and News Content - More*/
+?>
+
+
+
 <html>
 
 <head>
     <title>United Nation World Peace</title>
-    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-    <link href="assets\homepage\logo.png" rel="icon">
-    <link rel="stylesheet" href="scss\style.css">
+    <link href="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/homepage/logo.png" rel="icon">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/scss/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <!-- Header Section -->
-  <?php include 'includes\header.php' ?>
+  <?php include 'includes/header.php' ?>
   <div class="container">
-    <img src="assets\japan_news 2.png" alt="" class="img-fluid my-5">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/japan_news 2.png" alt="" class="img-fluid my-5">
   </div>
   <div class="container">
     <h1 class="fs-1 fw-bold ms-4 ps-3" style="border-left: 5px solid #F4B63C;">Japan Regional Council and the ASEAN Regional Council held a Conference.</h1>
@@ -44,6 +50,6 @@
     </nav>
   </div>
   <!-- Footer Section -->
-  <?php include 'includes\footer.php' ?>
+  <?php include 'includes/footer.php' ?>
 </body>
 </html>

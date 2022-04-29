@@ -72,9 +72,9 @@
       </div>
     </div>
   </div>
-  <!-- Latest News and Events -->
+  <!-- Latest News and Updates -->
   <div class="container latest-news-and-events">
-    <h3 class="fw-bolder my-5 fs-2">LATEST NEWS AND UPDATES</h3>
+  <a href="#"><h3 class="fw-bolder my-5 fs-2">LATEST NEWS AND UPDATES</h3></a>
     <div class="row news-and-events-container">
       <div class="col-sm-6">
         <div class="row" style="height:97.5%">
@@ -91,12 +91,12 @@
       <div class="col-sm-6 section-right">
         <div class="row">
           <div class="col-sm-4">
-            <img src="assets/latest news and updates/la-consolacion.png" alt="" class="img-fluid">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/latest news and updates/la-consolacion.png" alt="" class="img-fluid">
           </div>
           <div class="col-sm-8">
             <p>UNWPA INTERS La Consolacion University Philippines</p>
             <p>United Nation World Peace Assocation welcomes the third batch of student interns from La Consolacion University Philippines, Malolos, Bulacan. The interns will be trained virtually for 12 months in events planning and social media marketing.</p>
-            <button class="btn btn-primary news-button">VIEW MORE</button>
+            <button class="btn btn-primary news-button" href="/unwpa/newsAndUpdates.php">VIEW MORE</button>
           </div>
         </div>
         <div class="row">
