@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
+    <link href="assets\homepage\logo.png" rel="icon">
+    <link rel="stylesheet" href="scss\style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us - Peace and Youth Advocacy</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <?php include 'includes\header.php' ?>
+
+  <div class="container-fluid paya-hero m-0 p-0 my-5">
+      <div class="row p-0 m-0">
+          <div class="col-sm-6 d-flex align-items-center justify-content-center">
+              <h1 class="w-25 text-center mb-5 pb-5">Peace Youth Advocacy</h1>
+          </div>
+          <div class="col-sm-6 p-0"><img src="assets\about us\paya - hero.png" class="w-100 h-75" alt=""></div>
+      </div>
+      <div class="container my-5">
+          <h3 class="my-5">Helping children change their world.</h3>
+          <h3 class="mb-5">We fight for children’s rights and deliver 
+
+            lasting improvements to children’s lives worldwide.</h3>
+      </div>
+  </div>
+
+  <div class="container-fluid paya-hero1 p-0 m-0 mt-5">
+    <div class="row p-0 m-0 my-5 py-5">
+        <div class="col-sm-6 p-0"><img src="assets\about us\paya - hero1.png" class="w-100 h-100" alt=""></div>
+
+        <div class="col-sm-6 d-flex align-items-center justify-content-center">
+            <h1 class="w-25 text-center mb-5 pb-5">Peace Youth Advocacy</h1>
+        </div>
+    </div>
+
+    <div class="container my-5 py-5">
+        <h3 class="my-5 fs-4 py-5">A youth advocate is an adult who acts in the best interests of the youth that they are working with. The overall purpose of a youth advocate is to ensure that youth maintain their human rights while aiding in skill development in all areas of life such as education, health, housing, employment, relationships, etc. A youth advocate aims to prevent youth from experiencing diminished self-esteem while interacting 
+            with adults who hold professional authoritative roles in their life. </h3>
+        
+    </div>
+
+    <div class="row p-0 m-0 my-5 py-5">
+        <div class="col-sm-12">
+            <h3 class="fs-4 my-5 py-5  mx-5 lh-base">Examples of these adults are judges, lawyers, teachers, etc. A speaker on the subject, describes a youth advocate as one who plays a significant supportive role in the social and legal processes in the lives of young people, especially homeless and foster youth who lack family support. In consideration of the legal aspects, the National Association of Youth Courts describes a youth advocate as a person who provides support to a youth respondent or defendant during a hearing.</h3>
+        </div>
+        <div class="col-sm-12">
+            <h3 class="fs-4 mt-5 mb-3 pt-5 w-75  mx-5 lh-base">Advocacy in all its forms to outreach, to guarantee that people, 
+                particularly those who are most unprotected in society, are able to:
+                </h3>
+                <ul class="ms-5">
+                    <li>Have their voice heard on matter that are important to them.
+                    </li>
+                    <li>Protect and defense their rights.
+                    </li>
+                    <li>Have their opinion and desired genuinely deliberate when 
+                        decisions are being made about their lives.</li>
+                </ul>
+        </div>
+        <div class="col-sm-12">
+            <h3 class="fs-4 mt-5 mb-3 pt-5 w-75 float-end  mx-5 lh-base text-end">Advocacy in all its forms to outreach, to guarantee that people, 
+                particularly those who are most unprotected in society, are able to:
+                </h3>
+                <ul class="ms-5 text-end float-end mx-5">
+                    <li>Have their voice heard on matter that are important to them.
+                    </li>
+                    <li>Protect and defense their rights.
+                    </li>
+                    <li>Have their opinion and desired genuinely deliberate when 
+                        decisions are being made about their lives.</li>
+                </ul>
+        </div>
+    </div>
+
+
+    
+</div>
+
+<div class="container-fluid paya-hero2 p-0 m-0 mt-5 pt-5">
+    <div class="row p-0 m-0 my-5 py-5">
+        <div class="col-sm-12">
+            <h3 class="fs-4 mx-5">An advocate is someone who give advocacy support when someone is in need of it. An advocate might help you access information you need. You may want your 
+                advocate to write letters on your behalf, or voice out for you in circumstances where you don’t feel able to express for yourself.</h3>
+        </div>
+    </div>
+    <div class="row p-0 m-0 my-5 py-5">
+        <div class="col-sm-12">
+            <h3 class="fs-4 mx-5">strong and effective public defender program serving children, for example, a appearance in the community, a multi-disciplinary team approach to representation, child-focused advocacy, access to resources for children and a wide network of parents and community organizations.</h3>
+        </div>
+    </div>
+    <div class="row p-0 m-0 my-5 py-5">
+        <div class="col-sm-12">
+            <h3 class="text-center fs-4 w-75 mx-auto">We are passionate about our mission, and work hard to not only meet the 
+                needs of those we serve, but importantly to build their strengths and to 
+                connect them in positive ways within their community.</h3>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid my-5 py-5">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Evidence.</h2>
+            <p>How can your program experience be used to provide evidence for advocacy? </p>
+            <p>What does it tell you about the problems, and what does it tell you about possible solutions?</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid my-5 py-5">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Relationships.</h2>
+            <p>What relationships have you developed through program work that can be used for advocacy (for example, with possible targets, influential, allies, networks, groups of children? A relationship means that you, as an advocate, get a response when you ask for a meeting, make a phone call, or send an email. It also means you must be prepared to respond. Reciprocity, responsiveness and responsibility are important in relationships that are public.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid my-5 py-5">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Legitimacy.</h2>
+            <p>How does your program work provide legitimacy for advocacy (for example, direct experience of problems and/or solutions, sustained work with children)?</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid my-5 py-5">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Sustainability.</h2>
+            <p>How can your program’s effectiveness be made more sustainable through advocacy? How does it deal with the underlying causes of the problems you are addressing through your program?
+            </p>
+            <ul>
+                <li>Receive and review matters related to individuals or groups of children and youth.
+                </li>
+                <li>Advocate or use alternative dispute resolution mechanisms to resolve issues.
+                </li>
+                <li>Initiate and participate in case conferences, administrative reviews, mediation or other processes where decisions are being made regarding children and youth either individually or collectively.
+                </li>
+                <li>Meet and interview children and youth.
+                </li>
+                <li>Engage in public education.
+                </li>
+                <li>Make recommendations to government, agencies of government or communities regarding legislation, policies and practices respecting services or the rights of children and youth.
+                </li>
+                <li>Where alternative dispute processes are ineffective or inappropriate, conduct an independent investigation.
+                </li>
+                <li>Access information respecting a child or youth which is held by a government department or agency which is determined necessary to conduct the work of the Advocate.
+                </li>
+                <li>Enter a government or agency premises for the purpose of conducting a review or investigation.
+                </li>
+                <li>Publish reports related generally to the exercise and performance of his/her functions under the Act or to a particular case investigation by him/her.
+                </li>
+                <li>Submit an Annual Report to the House of Assembly.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid my-5 py-5">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Sustainability.</h2>
+            </p>
+            <ul>
+                <li>What did you most like to do when you were my age?
+                </li>
+                <li>What was being a teenager like for you?
+                </li>
+                <li>What responsibilities did you have in your family when you were an adolescent?
+                </li>
+                <li>Do you think teenagers have it better or worse today than you did? Why?
+                </li>
+                <li>If you could change one thing about your own teenage years, what would it be?
+                </li>
+                <li>Who were you closest to in your family?</li>
+                <li>What was the greatest source of conflict between you and your parent(s)?
+                </li>
+                <li>What do you like most about being a parent?
+                </li>
+                <li>What is the biggest responsibility of a parent?
+                </li>
+                <li>What is the hardest thing about being a teen today? The best?
+                </li>
+                <li>What advice would you give to teens today?
+                </li>
+                <li>What lessons did you learn from parents or other adults that you try to pass on?</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid my-5 py-5">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Principles:</h2>
+            <ul>
+                <li>Advocacy services must remain child focused.
+                </li>
+                <li>Children and youth must be treated with respect and their inherent dignity as human beings recognized.
+                </li>
+                <li>The right of privacy of the child, as well as all parties involved, must be respected in the advocacy process.
+                </li>
+                <li>Children and youth have the right to information and access to government services and programs.
+                </li>
+                <li>Children and youth have a right to speak, be heard and to participate in decision-making processes.
+                </li>
+                <li>Parents, extended family and significant others are natural advocates for children and youth.
+                </li>
+                <li>Actions are based on empowerment.
+                </li>
+                <li>Information is confidential unless there is risk of harm.
+                </li>
+                <li>Interventions are respectful, understanding and compassionate.
+                </li>
+                <li>Cultural diversity is recognized and respected.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid my-5 py-5">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>From the Declaration to the UN Convention on the Rights of the Child</h2>
+            <p>Eglantyne Jebb knew that to have maximum impact Save the Children had to move beyond relief work. Her response was typically bold and visionary – to create a platform for the rights and welfare of children around the world. Her unique vision was a simple statement of rights that would have a claim on everybody dealing with children, not just the wealthy or the powerful. And so, although advocacy is sometimes presented as a new or recent activity, Save the Children was actually set up as an advocacy organisation.
+            </p>
+            <p>The Declaration of the Rights of the Child was adopted and promoted by the International Save the Children Union in 1923.Within a year it had been adopted by the League of Nations in Geneva.
+            </p>
+            <p>Some 65 years later, the Declaration became the basis of the United Nations Convention on the Rights of the Child (UNCRC). Adopted in 1989, the UNCRC is now the most important advocacy tool for children’s rights.</p>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Footer Section -->
+    <?php include 'includes\footer.php' ?>
+        <p class="d-lg-none d-sm-block text-light p-2 float-end text-uppercase m-0 ">back to top</p>
+      </div>
+      <div class="container-fluid header-bg">
+        <footer class="d-sm-none d-lg-block .d-sm-none .d-md-block footer1">
+          <div class="row d-flex justify-content-end m-0 p-0">
+            <div class="col-sm-8 h-50" style="height: 100px">
+              <nav class="navbar navbar-expand-lg navbar-light ">
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav ">
+                      <li class="nav-item">
+                      <a class="nav-link active text-light fw-bold mx-1" aria-current="page" href="#">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link text-light fw-bold mx-1" href="#">NEWS AND UPDATES</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link text-light fw-bold mx-1" href="#">AMBASSADORS</a>
+                      </li>
+                      <ul class="navbar-nav">
+                      <li class="nav-item">
+                      <a class="nav-link text-light fw-bold  mx-1" aria-current="page" href="#">CONFERENCES</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link text-light fw-bold mx-1" href="#">STRUCTURE MEMBERS</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link text-light fw-bold mx-1" href="#">ABOUT US</a>
+                      </li>
+                      </ul>
+                  </div>
+                </nav>
+            </div>
+          </div>
+          <div class="row m-0 p-0">
+            <div class="d-flex justify-content-start">
+              <div class="row m-0 p-0">
+                <div class="col-sm-3">
+                    <img src="assets\homepage\logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-6 text-light  mt-3" style="font-size: 10px; line-height: 5px;">
+                    <p>UNITED NATION WORLD PEACE ASSOCATION</p>
+                    <p>SAPPORO SHI KITA KU KITA 34</p>
+                    <p>JO NISHA 4 CHROME 1-1</p>
+                    <p>RUSHINU N34 IF</p>
+                </div>
+              </div>
+              <div class="d-flex  justify-content-around my-4">
+                <ul class="nav col-md-4list-unstyled text-light ">
+                  <li class="ms-3"><a class="text-primary" href="#"><img src="assets\social media\email.png" width="20px" alt=""></svg></a></li>
+                  <li class="ms-3"><a class="text-muted" href="#"><img src="assets\social media\facebook.png" width="20px" alt=""></a></li>
+                  <li class="ms-3"><a class="text-muted" href="#"><img src="assets\social media\twitter.png" width="20px" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="row m-0 p-0">
+            <p class="text-center text-light" style="font-size: 12px;">COPYRIGHT &copy | UNITED NATION WORLD PEACE ASSOCATION | ALL RIGHTS RESERVED</p>
+        </div>
+        </footer>
+        <footer class="d-lg-none d-sm-block responsive-footer">
+                  <div class="row d-flex justify-content-center py-5">
+                      <div class="col-sm-4 parent-logo">
+                        <img src="assets\homepage\logo.png" alt="" class="img-fluid w-100 logo p-2">
+                      </div>
+                      <div class="col-sm-3 p-0 parent-text">
+                        <p class=" d-inline fw-bold text-uppercase text-light fs-4 d-flex align-items-center align-self-center pt-5">united nation world peace association</p>
+    
+                      </div>
+                  </div>
+                  <div class="row d-flex justify-content-center text-light  mt-3" style="font-size: 10px; line-height: 5px;">
+                      <div class="col-sm-8 text-center">
+                        <p class="fs-4 my-3 fw-light unwpa-text">UNITED NATION WORLD PEACE ASSOCATION</p>
+                        <div class="fs-1 py-3 fw-lighter unwpa-info-text">
+                            <p class="py-2">SAPPORO SHI KITA KU KITA 34</p>
+                            <p class="py-2">JO NISHA 4 CHROME 1-1</p>
+                            <p class="py-2">RUSHINU N34 IF</p>
+                        </div>
+                      </div>
+                  </div>
+                <div class="d-flex  justify-content-around my-4">
+                  <ul class="nav col-md-4list-unstyled text-light ">
+                    <li class="ms-3"><a class="text-primary" href="#"><img src="assets\social media\email.png" width="40px" alt=""></svg></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><img src="assets\social media\facebook.png" width="30px" alt=""></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><img src="assets\social media\twitter.png" width="35px" alt=""></a></li>
+                  </ul>
+                </div>
+          <div class="row m-0 p-0">
+              <p class="text-center text-light" style="font-size: 12px;">COPYRIGHT &copy | UNITED NATION WORLD PEACE ASSOCATION | ALL RIGHTS RESERVED</p>
+          </div>
+          </footer>
+      </div>
+</body>
+</html>

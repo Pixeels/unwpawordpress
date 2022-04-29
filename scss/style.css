@@ -3,9 +3,9 @@ body {
   font-family: 'Poppins', sans-serif !important;
 }
 
-
 .body {
   font-family: "Poppins";
+
 }
 
 #navbarNavDropdown ul li a:link {
@@ -18,6 +18,7 @@ body {
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-thickness: 2px;
+
 }
 
 .header-bg {
@@ -189,8 +190,28 @@ ul.social-media li img {
   font-size: 10px;
 }
 
+.aboutTitleContainer {
+  background: #f0f5ff;
+}
+
 .aboutTitle {
   background: #f0f5ff;
+}
+
+.aboutUsTitle {
+  position: relative;
+}
+
+.aboutUsTitle h1 {
+  position: absolute;
+  margin-left: -12rem;
+  z-index: 2;
+}
+
+.bg_blob1 {
+  position: relative;
+  height: 33rem;
+  width: 37rem;
 }
 
 .missionTitleBg {
@@ -219,12 +240,44 @@ ul.social-media li img {
   background: linear-gradient(to bottom, #e8efff 50%, #f0f5ff 50%);
 }
 
+.memberTitleCont2 {
+  position: relative;
+}
+
+.memberBlobCont {
+  width: 46rem;
+}
+
+.memberTitle {
+  position: absolute;
+  margin-top: 10rem !important;
+  z-index: 2;
+  margin-left: -16rem;
+}
+
+.memberTitleImg {
+  z-index: 2;
+}
+
 .members_seperatorbg1 {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f0f5ff), color-stop(50%, #e8efff));
   background: linear-gradient(to bottom, #f0f5ff 50%, #e8efff 50%);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.bg_blob2 {
+  position: relative;
+  height: 37rem;
+  width: 46rem;
+  margin-bottom: 0rem;
+}
+
+.bg_blob3 {
+  position: relative;
+  height: 20rem;
+  width: 20rem;
 }
 
 .membersContainer {
@@ -310,72 +363,6 @@ ul.social-media li img {
   border-width: 10px;
 }
 
-.section-1 {
-  background-image: linear-gradient(140deg, #646464, #959595);
-  background-position: left;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.overlay-logo {
-  opacity: .5;
-  position: absolute;
-  margin-left: -243px;
-}
-
-.memberCard1 {
-  width: 8rem;
-  height: 6rem;
-}
-
-.divider1 {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.news-button {
-  color: #fff;
-  background-color: #646464;
-  border-color: #0d6efd;
-  border-radius: 40px;
-}
-
-.events-button {
-  color: #fff;
-  background-color: #646464;
-  border-color: #0d6efd;
-  border-radius: 40px;
-}
-
-.carousel-caption {
-
-
-}
-.membersTitleBg .divider1 .carousel-caption {
-
-
-  position: absolute;
-  bottom: 200;
-}
-
-.carousel-caption button {
-  color: #264caa;
-}
-
-.carousel-item {
-  background: black;
-}
-
-.carousel-indicators {
-  position: absolute;
-  bottom: 100;
-}
-
-.section-right {
-  font-size: 10px;
-}
-
 .pPortal_seperatorbg1 {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #e8efff), color-stop(50%, #e8efff));
   background: linear-gradient(to bottom, #e8efff 50%, #e8efff 50%);
@@ -388,10 +375,10 @@ ul.social-media li img {
 
 .pPortalTitle {
   background: #ffffff;
-  margin-top: 8rem;
+  margin-top: 8rem !important;
 }
 
-.pPortalTitleBg {
+.pPortalTitleBg, .pPortalTitleBg2 {
   background-color: #bad0fc;
 }
 
@@ -443,7 +430,7 @@ ul.social-media li img {
 }
 
 .nonProfTitle {
-  margin-top: 0rem;
+  margin-top: 2rem;
 }
 
 .chapter1_BG {
@@ -467,13 +454,17 @@ ul.social-media li img {
   width: 50rem;
 }
 
+.partnersBg {
+  background-color: #e8efff;
+}
+
 .overlayTitle {
   position: absolute;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   color: black;
-  bottom: 15rem;
+  bottom: 14rem;
 }
 
 .partnersCard {
@@ -481,18 +472,23 @@ ul.social-media li img {
   border-color: #e8efff;
 }
 
+.partnersCard1 {
+  background-color: #e8efff;
+  border-color: #e8efff;
+}
+
 .partnersImg1 {
   height: 310px;
   width: 20rem;
-  margin-bottom: 1rem;
-  margin-left: 3rem;
+  margin-bottom: 1rem !important;
+  margin-left: 9rem !important;
 }
 
 .partnersImg2 {
   height: 310px;
   width: 20rem;
-  margin-bottom: 1rem;
-  margin-left: 3rem;
+  margin-bottom: 1rem !important;
+  margin-left: 9rem !important;
 }
 
 .wwdText h4 {
@@ -598,29 +594,128 @@ ul.advocacy-list li::before {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .desktop-view {
+  .missionContainer > div:first-child > div:first-child h1 {
+    font-size: 35px;
+  }
+  .titleCont {
+    position: relative;
+    z-index: 2;
+  }
+  .titleLogo {
+    width: 20rem !important;
+    margin-left: -4rem !important;
+  }
+  .aboutLogo {
+    width: 20rem !important;
+    height: auto;
+    position: relative !important;
+  }
+  .blobCont {
+    position: relative;
+    width: 20rem !important;
+  }
+  .bg_blob1 {
+    width: 50rem !important;
+    height: 26rem !important;
+  }
+  .visionTitleBG {
+    font-size: 100px !important;
+  }
+  .memberRow {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .memberCard0 {
+    width: 28rem !important;
+  }
+  .titleCont {
+    position: relative;
+    z-index: 2;
+    margin-top: -1rem !important;
+  }
+  .pPortalTitleContainerImg {
+    padding-top: 0rem !important;
+  }
+  .pPortalTitleContainer img {
+    width: 15rem !important;
+  }
+  .partnershipsContainer1 {
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+  }
+  .pPortalTitleBg2 {
+    width: 38rem !important;
+  }
+  .pPortalTitleBg {
+    width: 16rem !important;
+  }
+  .pPortalTitleDesc {
+    margin-top: -6rem !important;
+  }
+  .undesa {
+    margin-top: 1rem !important;
+  }
+  .VM {
+    margin-top: 6rem !important;
+  }
+  .partner_disp2 {
+    background-color: #f0f5ff;
+  }
+  .wwdTitleImg img {
+    height: 15rem !important;
+    width: 15rem !important;
+  }
+  .wwdDesc img {
     display: none;
   }
-  .mobile-and-tablet-view {
-    display: block;
+  .wwdDescImgCont2 {
+    width: 0px;
+    margin: 0px !important;
+    padding: 0px !important;
   }
-  .mobile-and-tablet-view .card {
-    border-color: #474747;
-    max-height: 32rem;
-    min-height: 32rem;
+  .wwdText {
+    width: 41rem !important;
   }
-  .mobile-and-tablet-view .card .card-title {
-    border-left: 3px solid #F4B63C;
+  .wwdText2 {
+    width: 39rem !important;
   }
-  .mobile-and-tablet-view .card .card-body a {
-    color: grey;
-    text-decoration: none;
+  .wwdText h4 {
+    margin-left: 2rem;
+    font-weight: bold;
   }
-  .pPortalTitleContainer {
-    background: #000;
+  .wwdDescImgCont {
+    width: 0px;
+    margin: 0px !important;
+    padding: 0px !important;
   }
-  .pPortalTitleContainer > div.row:first-child > div img {
-    width: 50% !important;
+  .partnersTitle {
+    width: 48rem !important;
+  }
+  .hearthands {
+    height: 12rem !important;
+    width: 44rem !important;
+  }
+  .overlayTitle {
+    margin-top: 10rem !important;
+    position: absolute;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: black;
+    bottom: 8rem  !important;
+    left: 18rem  !important;
+  }
+  .partnersImg1 {
+    height: 13rem !important;
+    width: 15rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 1.5rem !important;
+  }
+  .partnersImg2 {
+    height: 13rem !important;
+    width: 15rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 1.5rem !important;
   }
   .overlay {
     padding: 2rem !important;
@@ -681,59 +776,234 @@ ul.advocacy-list li::before {
     background-color: #fff;
     border-radius: 2rem;
   }
-
-  
- /* STRUCTURE MEMBERS PROFILE TABLET */
-
- .img-fluid-profile {
-   height: auto !important;
-   width: 233px !important;
- }
- .row-members {
-  display: flex !important;
-  float: left !important;
-
-  flex-wrap: wrap;
-}
-.column {
-  flex: 46% !important;
-  margin-bottom: 30px !important;
-  float: left !important;
-  flex-direction: column !important;
-}
-* {
-  box-sizing: border-box !important;
-}
-
-
+  /* STRUCTURE MEMBERS PROFILE TABLET */
+  .img-fluid-profile {
+    height: auto !important;
+    width: 233px !important;
+  }
+  .row-members {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    float: left !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .column {
+    -webkit-box-flex: 46% !important;
+        -ms-flex: 46% !important;
+            flex: 46% !important;
+    margin-bottom: 30px !important;
+    float: left !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  * {
+    -webkit-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .desktop-view {
+  .aboutTitleContainer {
+    padding-top: 3rem !important;
+  }
+  .aboutTitleContainer > div:first-child > div:first-child img {
     display: none;
   }
-  .mobile-and-tablet-view {
-    display: block;
+  .aboutUsTitle h1 {
+    position: absolute;
+    margin-left: 9rem !important;
+    z-index: 2;
   }
-  .mobile-and-tablet-view .card {
-    border-color: #474747;
-    max-height: 32rem;
-    margin: auto;
-    min-height: 32rem;
-    margin-bottom: 1rem;
+  .aboutLogo {
+    height: auto !important;
+    width: 15rem !important;
   }
-  .mobile-and-tablet-view .card .card-title {
-    border-left: 3px solid #F4B63C;
+  .aboutTitle {
+    margin-top: 5rem;
   }
-  .mobile-and-tablet-view .card .card-body a {
-    color: grey;
-    text-decoration: none;
+  .titleDesc {
+    position: absolute;
+    margin-left: 9rem;
   }
-  .pPortalTitleContainer {
-    background: red;
+  .missionDesc {
+    font-size: 15px !important;
+    width: 320px !important;
+    margin-top: -30px !important;
   }
-  .pPortalTitleContainer > div.row:first-child > div img {
-    width: 50% !important;
+  .visionDesc {
+    font-size: 15px !important;
+    width: 320px !important;
+    margin-top: -30px !important;
+  }
+  .visionBg {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .membersTitleBg {
+    width: 21rem !important;
+  }
+  .memberRow {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .memberCard0 {
+    width: 26rem !important;
+    height: 10rem !important;
+  }
+  .boardTitle {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .bg_blob2 {
+    display: none;
+  }
+  .memberTitle {
+    margin-top: -2rem !important;
+    margin-left: 4rem !important;
+  }
+  .memberTitleImg {
+    margin-top: 0rem !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+  .memberTitleCont2 h1 {
+    margin-left: 0rem;
+  }
+  .titleCont {
+    padding-top: 1rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .nonProfTitle {
+    text-align: center;
+  }
+  .chap1_Title {
+    text-align: center;
+  }
+  .chapter1_BG {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  .pPortalTitleContainerImg {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .pPortalTitleContainer img {
+    width: 8rem !important;
+  }
+  .partnershipsContainer1 {
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+    width: 21rem;
+  }
+  .partnerDescription {
+    font-size: 15px !important;
+  }
+  .pPortalTitleBg2 {
+    width: 16rem !important;
+  }
+  .pPortalTitleBg2 h3 {
+    font-size: 15px !important;
+  }
+  .pPortalTitleBg {
+    width: 16rem !important;
+  }
+  .pPortalTitleDesc {
+    margin-top: -6rem !important;
+  }
+  .undesa {
+    margin-top: 1rem !important;
+  }
+  .VM {
+    margin-top: 3rem !important;
+  }
+  .UNPP {
+    margin-top: 2rem !important;
+  }
+  .UNGM {
+    margin-top: 2rem !important;
+  }
+  .pPortal_seperatorbg1 {
+    margin-bottom: 0px !important;
+  }
+  .partner_disp2 {
+    background-color: #f0f5ff;
+  }
+  .wwdTitleImg {
+    padding-top: 0px !important;
+  }
+  .wwdTitleImg img {
+    height: 13rem !important;
+    width: 13rem !important;
+    padding-top: 0px !important;
+  }
+  .wwdDesc img {
+    display: none;
+  }
+  .wwdDescImgCont2 {
+    width: 0px;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .wwdText {
+    width: 41rem !important;
+  }
+  .wwdText2 {
+    width: 20rem !important;
+  }
+  .wwdText h4 {
+    margin-left: 0rem;
+    font-weight: bold;
+    font-size: 14px !important;
+  }
+  .wwdText2 h5 {
+    margin-left: 0rem;
+    font-weight: bold;
+    font-size: 14px !important;
+  }
+  .wwdDescImgCont {
+    width: 0px;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .partnersTitle {
+    width: 48rem !important;
+  }
+  .hearthands {
+    height: 12rem !important;
+    width: 44rem !important;
+  }
+  .overlayTitle {
+    margin-top: 10rem !important;
+    position: absolute;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: black;
+    bottom: 9rem !important;
+    left: 8rem !important;
+    font-size: 34px !important;
+  }
+  .partnersImg1 {
+    height: 13rem !important;
+    width: 15rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 1.5rem !important;
+  }
+  .partnersImg2 {
+    height: 13rem !important;
+    width: 15rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .partnersCard1 {
+    padding-bottom: 0rem !important;
+    background-color: #e8efff;
+    border-color: #e8efff;
   }
   .overlay {
     padding: 2rem !important;
@@ -857,7 +1127,6 @@ ul.advocacy-list li::before {
   }
 }
 
-
 .nonProfTitleContainer {
   margin: 0%;
 }
@@ -867,15 +1136,15 @@ ul.advocacy-list li::before {
 }
 
 .chapter1_BG {
-  background-color: #BAD0FC;
+  background-color: #bad0fc;
 }
 
 .chapter1_BG2 {
-  background-color: #E1EAFE;
+  background-color: #e1eafe;
 }
 
 .partnersTitleContainer {
-  background-color: #F0F5FF;
+  background-color: #f0f5ff;
 }
 
 .partnersTitle {
@@ -887,18 +1156,9 @@ ul.advocacy-list li::before {
   width: 50rem;
 }
 
-.overlayTitle {
-  position: absolute;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: black;
-  bottom: 15rem;
-}
-
 .partnersCard {
-  background-color: #E8EFFF;
-  border-color: #E8EFFF;
+  background-color: #e8efff;
+  border-color: #e8efff;
 }
 
 .partnersImg1 {
@@ -998,18 +1258,5 @@ ul.advocacy-list li::before {
   border-radius: 0.25rem !important;
 }
 
-
 /* END OF STRUCTURE MEMBERS CSS */
-
-.wwdText h4 {
-  margin-left: 5rem;
-}
-
-.wwdDescBg {
-  background: #F0F5FF;
-}
-
-.wwdPurposeBg {
-  background: #E8EFFF;
-}
 /*# sourceMappingURL=style.css.map */
