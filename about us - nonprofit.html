@@ -1,22 +1,63 @@
-<?php
-<<<<<<< HEAD
-  /* Template Name: About Us - Nonprofit*/
-?>
-
-=======
-  /* Template Name: Non-Profit Organization*/
-?>
->>>>>>> 0090e9b99c4b06d70777057a6269110e73d1e750
 <html>
+<head>
+    <title>United Nation World Peace</title>
+    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
+    <link href="assets\homepage\logo.png" rel="icon">
+    <link rel="stylesheet" href="scss\style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
 <body>
   <!-- Header Section -->
-  <?php include 'includes/header.php' ?>
-
+<div class="container-fluid m-0 p-0 header-bg">
+    <div class="row mx-0">
+        <div class="col-sm-4 logo-bg mb-2">
+            <img src="assets\homepage\main-logo.png" alt="" srcset="" class="w-75 mt-2">
+        </div>
+        <div class="col-sm-8 h-50 d-flex mt-5">
+            <nav class="navbar navbar-expand-lg navbar-light align-self-end mt-5">
+                <a class="navbar-brand" href="#" disabled></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light fw-bold mx-1" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fw-bold mx-1" href="#">NEWS AND UPDATES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fw-bold mx-1" href="#">AMBASSADORS</a>
+                        </li>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-light fw-bold  mx-1" aria-current="page"
+                                    href="#">CONFERENCES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light fw-bold mx-1" href="./structureMembers.php">STRUCTURE
+                                    MEMBERS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light fw-bold mx-1" href="#">ABOUT US</a>
+                            </li>
+                        </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
 <!-- Title -->
 <div class="container-fluid m-0 p-0 nonProfTitleContainer" >
   <div class="container-fluid row m-0 p-0 ">
       <div class="col-sm-6 p-5 d-flex justify-content-center mb-1">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/Non-Profit.png" alt="Non-Profit Organization
+          <img src="assets\about us\Non-Profit.png" alt="Non-Profit Organization
           United Nation World Peace Association:
           Articles of Association" class="img-fluid">
       </div>
@@ -145,7 +186,8 @@
               
 </div> 
 
+
     <!-- Footer Section -->
-    <?php include 'includes/footer.php' ?>
+    <?php include 'includes\footer.php' ?>
 </body>
 </html>
