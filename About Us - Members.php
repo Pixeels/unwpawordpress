@@ -1,6 +1,7 @@
 <?php
-  /* Template Name: Members*/
+  /* Template Name: About Us - Members*/
 ?>
+
 <html>
 <body>
   <!-- Header Section -->

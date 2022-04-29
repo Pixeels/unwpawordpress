@@ -1,6 +1,7 @@
 <?php
-  /* Template Name: Non-Profit Organization*/
+  /* Template Name: About Us - Nonprofit*/
 ?>
+
 <html>
 <body>
   <!-- Header Section -->

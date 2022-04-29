@@ -58,7 +58,7 @@
       <div class="col-sm-3">
         <h2 class="fs-5 fw-bold ps-3" style="border-left: 5px solid #F4B63C;">Japan Regional Council and the ASEAN Regional Council held a Conference.</h2>
         <p class="mt-3">Last October 30,2020 on SNS, President Moon, the chairman of the National Unification Advisory Council for Democratic Peace, and other stakeholders from various fields and the Japan Regional Council and the ASEAN Regional Council held a conference.</p>
-        <a href="#" style="text-decoration: none; color: grey;">Read More...</a>
+        <a href="/wordpress/article_and_news_more/" style="text-decoration: none; color: grey;">Read More...</a>
       </div>
     </div>
   </div>

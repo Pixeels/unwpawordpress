@@ -1,6 +1,8 @@
 <?php
-  /* Template Name: Partnership*/
+  /* Template Name: About Us - Partners*/
 ?>
+
+
 <html>
 <body>
   <!-- Header Section -->

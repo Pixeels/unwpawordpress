@@ -1,62 +1,29 @@
+<?php
+  /* Template Name: Ambassadors - Bangladesh*/
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-  <link href="assets\homepage\logo.png" rel="icon">
-  <link rel="stylesheet" href="scss\style.css">
-  <!--<script src="bootstrap-5.1.3-dist\js\paging.js"></script>-->
+<link href="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="<?php echo get_template_directory_uri(); ?>/maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/homepage/logo.png" rel="icon">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/scss/style.css">
+  <!--<script src="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist/js/paging.js"></script>-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   
-  <link rel="stylesheet" href="scss\Bangladesh.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/scss/Bangladesh.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   
 </head>
 <body>
 <!-- Header Section -->
-<div class="container-fluid m-0 p-0 header-bg ">
-  <div class="row mx-0">
-    <div class="col-sm-4 logo-bg mb-2">
-      <img src="assets\homepage\main-logo.png" alt="" srcset="" class="w-75 mt-2">
-    </div>
-    <div class="col-sm-8 h-50 d-flex mt-5">
-      <nav class="navbar navbar-expand-lg navbar-light align-self-end mt-5">
-        <a class="navbar-brand" href="#" disabled></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ">
-            <li class="nav-item">
-            <a class="nav-link active text-light fw-bold mx-1" style="font-size:1vw;" aria-current="page" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-light fw-bold mx-1" style="font-size:1vw;" href="#">NEWS AND UPDATES</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-light fw-bold mx-1" style="font-size:1vw;" href="#">AMBASSADORS</a>
-            </li>
-            <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link text-light fw-bold  mx-1" style="font-size:1vw;" aria-current="page" href="#">CONFERENCES</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-light fw-bold mx-1" style="font-size:1vw;" href="#">STRUCTURE MEMBERS</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link text-light fw-bold mx-1" style="font-size:1vw;" href="#">ABOUT US</a>
-            </li>
-            </ul>
-          </div>
-      </nav>
-    </div>
-  </div>
-</div>
+<?php include 'includes\header.php' ?>
 
 
 
@@ -114,7 +81,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="assets/my-logo/1.png" class="card-img-top"
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/1.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>
@@ -133,7 +100,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="assets/my-logo/1.png" class="card-img-top"
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/1.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>
@@ -153,7 +120,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="assets/my-logo/1.png" class="card-img-top"
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/1.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>
@@ -173,7 +140,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="assets/my-logo/1.png" class="card-img-top"
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/1.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>
@@ -193,7 +160,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="assets/my-logo/1.png" class="card-img-top"
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/1.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>
@@ -213,7 +180,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="assets/my-logo/1.png" class="card-img-top"
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/1.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>
@@ -233,7 +200,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="assets/my-logo/1.png" class="card-img-top"
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/1.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>
@@ -253,7 +220,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="assets/my-logo/1.png" class="card-img-top"
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/1.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>
@@ -273,7 +240,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="assets/my-logo/1.png" class="card-img-top"
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/1.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>
@@ -293,7 +260,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="assets/my-logo/1.png" class="card-img-top"
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/1.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>

@@ -1,5 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<?php
+  /* Template Name: About Us - Peace and Youth Advocacy*/
+?>
+<html>
 <head>
     <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
     <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>

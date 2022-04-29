@@ -1,3 +1,7 @@
+<?php
+  /* Template Name: Structure Members*/
+?>
+
 <html lang="en">
 
 <head>
