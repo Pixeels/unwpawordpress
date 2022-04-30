@@ -1,24 +1,8 @@
 <?php
-<<<<<<< HEAD
   /* Template Name: About Us - What We Do */
 ?>
 
 <html>
-
-<head>
-    <title>United Nation World Peace</title>
-    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-    <link href="assets\homepage\logo.png" rel="icon">
-    <link rel="stylesheet" href="scss\style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-
-    <style>
-        body {
-            font-family: 'Poppins';
-        }
-    </style>
-</head>
 <body>
   <!--header-->
 <!-- Header Section -->
@@ -33,9 +17,7 @@
           <h1> What we do. </h1>
         </div>
     </div>    
-=======
-  /* Template Name: What we do*/
-?>
+
 <html>
 <body>
   <!-- Header Section -->
@@ -52,13 +34,11 @@
       </div>
 
     </div>
->>>>>>> 0090e9b99c4b06d70777057a6269110e73d1e750
   </div>
 
   <!-- Page Description-->
   <div class="container-fluid m-0 p-0 missionBg">
     <div class="row m-0 p-0 wwdDesc">
-<<<<<<< HEAD
         <div class="col-sm-6 p-0 pt-5 pb-5 container-fluid d-flex justify-content-center align-items-center wwdText">
           <h4 class="text-center"> United Nation World Peace Association is involved in <br>
             Charity, Events and Volunteer Projects for International<br>
@@ -93,7 +73,6 @@
             9. ACTIVITIES TO REVITALIZE ECONOMIC ACTIVITIES.<br> </h5>
           
         </div>
-=======
       <div class="col-sm-6 p-0 pt-5 pb-5 container-fluid d-flex justify-content-center align-items-center wwdText">
         <h4 class="text-center"> United Nation World Peace Association is involved in <br>
           Charity, Events and Volunteer Projects for International<br>
@@ -128,12 +107,10 @@
           
 
       </div>
->>>>>>> 0090e9b99c4b06d70777057a6269110e73d1e750
     </div>
   </div>
 
   <div class="container-fluid m-0 p-0 wwdPurposeBg">
-<<<<<<< HEAD
     <div class="row m-0 p-0 wwdDesc">
       <div class="col-sm-8 p-0 pt-5 pb-5 container-fluid d-flex justify-content-center align-items-center ">
         <h5 class="text-center"> <strong> UNWPA PERFORMS THE FOLLOWING TO ACHIEVE THE PURPOSE </strong><br><br>
@@ -153,8 +130,7 @@
         
         They address the global challenge we face, including those related to poverty, inequality,<br>
         climate change, environmental degradation, peace and justice.
-        
-=======
+
     <div class="row m-0 p-0 wwdDesc3">
       <div class="col-sm-8 p-0 pt-5 pb-5 container-fluid d-flex justify-content-center align-items-center wwdText2">
         <h5 class="text-center"> <strong> UNWPA PERFORMS THE FOLLOWING TO ACHIEVE THE PURPOSE </strong><br><br>
@@ -175,13 +151,11 @@
           They address the global challenge we face, including those related to poverty, inequality,
           climate change, environmental degradation, peace and justice.
 
->>>>>>> 0090e9b99c4b06d70777057a6269110e73d1e750
       </div>
     </div>
   </div>
 
   <div class="container-fluid m-0 p-0 wwdSDGBg">
-<<<<<<< HEAD
     <div class="row m-0 p-0 wwdDesc">
       <div class="col-sm-12 p-0 pt-5 container-fluid d-flex justify-content-center align-items-center ">
         <h3 class="text-center"> <strong> 17 SDG’s Agenda </strong><br><br> </h3>        
@@ -196,7 +170,6 @@
 
   <!-- Footer Section -->
   <?php include 'includes/footer.php' ?>
-=======
     <div class="row m-0 p-0 wwdDesc4">
       <div class="col-sm-12 p-0 pt-5 container-fluid d-flex justify-content-center align-items-center ">
         <h3 class="text-center"> <strong> 17 SDG’s Agenda </strong><br><br> </h3>
@@ -211,6 +184,5 @@
 
     <!-- Footer Section -->
     <?php include 'includes/footer.php' ?>
->>>>>>> 0090e9b99c4b06d70777057a6269110e73d1e750
 </body>
 </html>

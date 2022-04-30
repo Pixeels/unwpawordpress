@@ -1,12 +1,7 @@
 <?php
-<<<<<<< HEAD
   /* Template Name: About Us - Nonprofit*/
 ?>
 
-=======
-  /* Template Name: Non-Profit Organization*/
-?>
->>>>>>> 0090e9b99c4b06d70777057a6269110e73d1e750
 <html>
 <body>
   <!-- Header Section -->
