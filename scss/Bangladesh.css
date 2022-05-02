@@ -1,272 +1,270 @@
 /* image-top warning logo*/
 
 .container-fluid{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 
-  /*Country Name*/
-  .country-name{
-    margin-top: 58px;
-    margin-left: 317px;
-    color: white;
-  }
-  
-
-  .card-img-top-bangladesh{
-    margin-top: 40px;
-    align-items: center ;
-  }
-  
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  .h1,
-  .h2,
-  .h3,
-  .h4,
-  .h5,
-  .h6 {
-      font-family: 'Source Sans Pro', sans-serif
-  }
+/*Country Name*/
+.country-name{
+  margin-top: 58px;
+  margin-left: 317px;
+  color: white;
+}
 
 
-  /*Bangladesh Ambassadors Image height*/
-  .card-img-top{
-      height: 350px;
-  }
+.card-img-top-bangladesh{
+  margin-top: 40px;
+  align-items: center ;
+}
 
-  .row{
-      padding-left: 29px;
-      padding-right: 29px;
-  }
 
-   /*Bangladesh Ambassadors Image padding*/
-   .view{
-    height: 38rem;
-    padding-top: 50px; 
-    padding-left: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
-    background-color: rgb(7, 50, 124);
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Source Sans Pro', sans-serif
+}
 
-  .drop-btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .container-dropdown {
-    position: relative;
-    display: inline-block;
-    margin-top: 45px;
-    padding-top: 30px;
-    height: 100px;
-  }
 
-  .container-dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-menu a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-menu a:hover {background-color: #f1f1f1;}
-  
-  .container-dropdown:hover .dropdown-menu {
-    display: block;
-  }
-  
-  .container-dropdown:hover .drop-btn {
-    background-color: darkblue;
-  }
+/*Bangladesh Ambassadors Image height*/
+.card-img-top{
+    height: 350px;
+}
+
+.row{
+    padding-left: 29px;
+    padding-right: 29px;
+}
+
+ /*Bangladesh Ambassadors Image padding*/
+ .view{
+  height: 38rem;
+  padding-top: 50px; 
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  background-color: rgb(7, 50, 124);
+}
+
+.drop-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.container-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 45px;
+  padding-top: 30px;
+  height: 100px;
+}
+
+.container-dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {background-color: #f1f1f1;}
+
+.container-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.container-dropdown:hover .drop-btn {
+  background-color: darkblue;
+}
 
 /* XX-Large devices (large desktops, more than 1400px)*/
-  @media(min-width: 1400px){
-    .choose-country{
-      font-size: 25px;
-      text-align: center;
-    }
-    .responsive-font{
-      margin-top: 10px;
-      margin-left: 300px;
-      font-size: 60px;
-    }
-    .intro{
-      text-align: center;
-      font-size: 40px;
-      margin-top: 70px;
-      margin-bottom: 50px;
-    }
-    .card-text{
-      font-size: 20px;
-    }
+@media(min-width: 1400px){
+  .choose-country{
+    font-size: 25px;
+    text-align: center;
   }
+  .responsive-font{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 60px;
+  }
+  .intro{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  .card-text{
+    font-size: 20px;
+  }
+}
 
 /* X-Large devices (large desktops, less than 1400px)*/
-  @media (max-width: 1399px) {
-    .choose-country{
-      font-size: 23px;
-      text-align: center;
-    }
-    .card{
-      margin-top: 17px;
-    }
-    .responsive-font{
-      font-size: 60px;
-      margin-top: 12px;
-      margin-left: 230px;
-    }
-    .intro{
-      text-align: center;
-      font-size: 35px;
-      margin-top: 70px;
-      margin-bottom: 50px;
-    }
-    .card-text{
-      font-size: 18px;
-    }
-    .card-text-up{
-      font-size: 20px;
-    }
-  }
- 
-/* If the screen size is smaller than 1200px, set the font-size to 30px */
-@media (max-width: 1199px) {
+@media (max-width: 1399px) {
   .choose-country{
-    font-size: 21px;
+    font-size: 23px;
     text-align: center;
   }
   .card{
     margin-top: 17px;
   }
   .responsive-font{
-    font-size: 50px;
-    margin-top: 20px;
-    margin-left: 150px;
+    font-size: 60px;
+    margin-top: 12px;
+    margin-left: 230px;
   }
   .intro{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 70px;
     margin-bottom: 50px;
   }
   .card-text{
-    font-size: 16px;
+    font-size: 18px;
   }
+  .card-text-up{
+    font-size: 20px;
+  }
+}
+
+/* If the screen size is smaller than 1200px, set the font-size to 30px */
+@media (max-width: 1199px) {
+.choose-country{
+  font-size: 21px;
+  text-align: center;
+}
+.card{
+  margin-top: 17px;
+}
+.responsive-font{
+  font-size: 50px;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.intro{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.card-text{
+  font-size: 16px;
+}
 }
 
 /*Medium devices (less than 992px)*/
 @media (max-width: 991px) { 
-  .choose-country{
-    font-size: 19px;
-    text-align: center;
-  }
-  .card{
-    margin-top: 17px;
-  }
-  .responsive-font{
-    font-size: 40px;
-    margin-top: 25px;
-    margin-left: 120px;
-  }
-  .intro{
-    text-align: center;
-    font-size: 25px;
-    margin-top: 70px;
-    margin-bottom: 50px;
-  }
-  .card-text{
-    font-size: 14px;
-  }
- }
+.choose-country{
+  font-size: 19px;
+  text-align: center;
+}
+.card{
+  margin-top: 17px;
+}
+.responsive-font{
+  font-size: 40px;
+  margin-top: 25px;
+  margin-left: 120px;
+}
+.intro{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.card-text{
+  font-size: 14px;
+}
+}
 
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767px) { 
-  .choose-country{
-    font-size: 17px;
-    text-align: center;
-  }
-  .card{
-    margin-top: 20px;
-  }
-  .responsive-font{
-    margin-top: 20px;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-left: 100px;
-  }
-  .intro{
-    text-align: center;
-    font-size: 20px;
-    margin-top: 70px;
-    margin-bottom: 50px;
-  }
-  .card-text{
-    font-size: 12px;
-  }
+.choose-country{
+  font-size: 17px;
+  text-align: center;
+}
+.card{
+  margin-top: 20px;
+}
+.responsive-font{
+  margin-top: 20px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.intro{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.card-text{
+  font-size: 12px;
+}
 }
 
 /*X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) { 
-  .choose-country{
-    font-size: 13px;
-    text-align: center;
-  }
-  .card{
-    margin-top: 17px;
-    border-radius: 20%;
-  }
-  .container-dropdown{
-    text-align: center;
-    font-size: 10px;
-    margin-top: 30px;
-    height: 80px;
-  }
-  .responsive-font{
-    margin-left: 30px;
-    top: -30px;
-    margin-top: 30px;
-    position: relative;
-    font-size: 30px;
-  }
-  .intro{
-    text-align: center;
-    font-size: 15px;
-    margin-top: 70px;
-    margin-bottom: 50px;
-  }
-  .sample{
-    text-align: center;
-    border-width: 20px;
-  }
-  .spinner-grow{
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-  }
- }
-
-
+.choose-country{
+  font-size: 13px;
+  text-align: center;
+}
+.card{
+  margin-top: 17px;
+  border-radius: 20%;
+}
+.container-dropdown{
+  text-align: center;
+  font-size: 10px;
+  margin-top: 30px;
+  height: 80px;
+}
+.responsive-font{
+  margin-left: 30px;
+  top: -30px;
+  margin-top: 30px;
+  position: relative;
+  font-size: 30px;
+}
+.intro{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.sample{
+  text-align: center;
+  border-width: 20px;
+}
+.spinner-grow{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+}
