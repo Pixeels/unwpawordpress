@@ -116,18 +116,41 @@
   <div class="container-fluid d-flex justify-content-center align-item-center recent-events my-5 p-0">
     <div class="container m-5 py-2 px-5">
       <h3 class="my-4 text-light fw-bold">RECENT EVENTS</h3>
+      <!-- recent event post database connect-->
       <div class="row mb-5">
-        <div class="col-md-4 d-flex">
-          <div class="card" style="width: 25rem;">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/recent events/1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary events-button">VIEW MORE</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex">
+                   <?php
+											$args = array(
+												'post_type' => 'post',
+												'posts_per_page' => 3,
+												'orderby' => 'post_date',
+												'order' => 'DESC',
+												'post_status' => 'publish',
+												);
+												$posts = get_posts( $args );
+												foreach ( $posts as $post ):
+												setup_postdata( $post );
+										?>  
+                          <!-- start post box -->
+                          <div class="col-md-4 d-flex">
+                            <div class="card" style="width: 25rem;">
+                            <div class="card-img-top">
+                                <?php the_post_thumbnail(); ?>
+                            </div>
+                              <div class="card-body bg-light">
+                                <h5 class="card-title"><?php the_title(); ?></h5>
+                                <p class="card-text"><?php the_excerpt(); ?></p>
+                                <a href="<?php the_permalink(); ?>" class="btn btn-primary events-button">VIEW MORE</a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- end post box -->
+                      <?php endforeach; wp_reset_postdata(); ?>  
+					
+
+
+
+
+        <!-- <div class="col-md-4 d-flex">
           <div class="card" style="width: 25rem;">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/recent events/2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -146,8 +169,9 @@
               <a href="#" class="btn btn-primary events-button">VIEW MORE</a>
             </div>
           </div>
-        </div>
-      </div>
+        </div> -->
+      </div> 
+      <!-- end db -->
     </div>
   </div>
 

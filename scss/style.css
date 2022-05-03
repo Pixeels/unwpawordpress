@@ -118,6 +118,10 @@ ul.social-media li img {
   height: 90vh;
 }
 
+.card-img-top img {
+  height: 50% !important;
+}
+
 .overlay {
   width: 100%;
   height: 100%;
@@ -1384,3 +1388,5 @@ ul.advocacy-list li::before {
 
 /* END OF STRUCTURE MEMBERS CSS */
 /*# sourceMappingURL=style.css.map */
+
+

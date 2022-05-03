@@ -3,15 +3,6 @@
 ?>
 
 <html>
-
-<head>
-    <title>United Nation World Peace</title>
-    <link href="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/homepage/logo.png" rel="icon">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/scss/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
 <body>
   <!-- Header Section -->
   <?php include 'includes/header.php' ?>
@@ -41,7 +32,9 @@
           <h1 class="text-center mt-5">Get Started Now</h1>
           <h3 class="text-center fs-5 fw-light">CONFERENCE REGISTRATION</h3>
           <div class="mx-auto w-50 mt-5 form-input">
-            <form action="">
+
+            <?php echo apply_shortcodes('[contact-form-7 id="110" title="Contact form 1"]'); ?>
+            <!--<form action="">
               <div class="mb-3">
                 <input type="text" class="form-control d-inline" id="exampleFormControlInput1" placeholder="First Name">
               </div>
@@ -66,7 +59,7 @@
               <div class="mb-3">
                 <button class="btn btn-primary w-100 fw-bold">Register Now</button>
               </div>
-            </form>
+            </form> -->
           </div>
         </div>
     </div>

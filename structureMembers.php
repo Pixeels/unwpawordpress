@@ -1,27 +1,19 @@
 <?php
-  /* Template Name: Structure Members*/
+/* Template Name: Structure Members*/
 ?>
 
-<html lang="en">
+<html>
 
 <head>
-    <title>Structure Members Page</title>
-    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-    <link href="assets\homepage\logo.png" rel="icon">
-    <link rel="stylesheet" href="scss\style.css">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
     <style>
-        body {
-            font-family: 'Poppins';
-            font-family: 20px;
-            color: white;
-        }
+      body {
+        font-family: 'Poppins';
+        font-family: 20px;
+        color: white !important;
+    }
     </style>
 </head>
+
 
 <body>
     <!-- Header Section -->
@@ -41,7 +33,7 @@
                     <div class="card mb-3 w-100 mx-5 mt-5 p-5 bg-primary-cardbackground shadow">
                         <div class="row row-flex g-0 ">
                             <div class="col-md-4 mx-auto my-auto">
-                                <img src="assets\stucture members\4.png" class="img-fluid-profile mx-auto d-flex">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\4.png" class="img-fluid-profile mx-auto d-flex">
                                 <div class="parallelogram d-flex px-3 mx-auto">
                                     <div class="vr my-auto"></div>
                                     <h6 class="text-white-fusao fw-bold my-auto">FUSAO KITAGAWA</h6>
@@ -76,8 +68,8 @@
     <div class="container-fluid">
         <div class="row row-members p-2">
             <div class="card-group px-5 py-2">
-                <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\7.png" alt="Card image cap">
+               <div class="card size bkgnd mx-3 px-2 shadow column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\7.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex w-auto">AYAKA HOSHINA</h6>
@@ -95,11 +87,11 @@
                             you become...</p>
                         <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                         <!-- <div class="d-flex justify-content-end "><small class="more">MORE</small></div> -->
-                        <div class="d-flex justify-content-end "><button type="button" class="btn btn-primary"><small>MORE</small></button></div>
+                       <div class="d-flex justify-content-end "><button type="button" class="btn btn-primary"><small>MORE</small></button></div>
                     </div>
-                </div>
+                </div> 
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\5.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\5.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex w-auto">ASUKA HIRAI</h6>
@@ -118,7 +110,7 @@
                     </div>
                 </div>
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\6.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\6.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex">LEAH MARIE KITAGAWA</h6>
@@ -143,7 +135,7 @@
         <div class="row p-2 row-members">
             <div class="card-group px-5 py-2">
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\1.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\1.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex w-auto">KENICHIRU OKU</h6>
@@ -165,7 +157,7 @@
                     </div>
                 </div>
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\9.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\9.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex w-auto">MAKOTO FUNAKURA</h6>
@@ -183,7 +175,7 @@
                     </div>
                 </div>
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\2.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\2.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex">KAZUHITO AIZAWA</h6>
@@ -208,7 +200,7 @@
         <div class="row p-2">
             <div class="card-group px-5 py-2">
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\15.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\15.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex w-auto">KUNIHIRO HAGIWARA</h6>
@@ -230,7 +222,7 @@
                     </div>
                 </div>
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\16.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\16.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex w-auto">MASAHIRO TAKASHIMA</h6>
@@ -248,7 +240,7 @@
                     </div>
                 </div>
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\10.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\10.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex">KATSUHIRO NISHINO</h6>
@@ -273,7 +265,7 @@
         <div class="row p-2">
             <div class="card-group px-5 py-2">
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\3.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\3.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex w-auto">JUNICHI YOTSUMOTO</h6>
@@ -294,7 +286,7 @@
                     </div>
                 </div>
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\13.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\13.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex w-auto">KENJI IWAI</h6>
@@ -312,7 +304,7 @@
                     </div>
                 </div>
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\8.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\8.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex">JUN MIURA</h6>
@@ -338,7 +330,7 @@
         <div class="row p-2 mb-5">
             <div class="card-group px-5 py-2">
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\14.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\14.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex w-auto">TAKASHI KONO</h6>
@@ -360,7 +352,7 @@
                     </div>
                 </div>
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\11.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\11.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex w-auto">YASUMUNE NAKAKO</h6>
@@ -378,7 +370,7 @@
                     </div>
                 </div>
                 <div class="card size bkgnd mx-3 px-2 shadow column">
-                    <img class="card-img-top img-size mx-auto" src="assets\stucture members\12.png" alt="Card image cap">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\12.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
                         <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex">KEIKO KATO</h6>

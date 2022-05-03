@@ -15,7 +15,7 @@
   <div class="container-fluid">
     <h1 class="fs-1 fw-bolder my-5 text-center" style="color: #07327C;">Articles and News</h1>
     <div class="row">
-      <div class="col-sm-2">
+      <!-- <div class="col-sm-2">
         <div class="d-flex flex-column bd-highlight  mb-3">
           <div class="p-2 bd-highlight">
             <div class="activities-post">
@@ -50,16 +50,33 @@
             </div>
           </div>
         </div>
+      </div> -->
+
+      <?php
+											$args = array(
+												'post_type' => 'Articles-and-News',
+												'posts_per_page' => 5,
+												'orderby' => 'post_date',
+												'order' => 'DESC',
+												'post_status' => 'publish',
+												);
+												$posts = get_posts( $args );
+												foreach ( $posts as $post ):
+												setup_postdata( $post );
+										?>  
+
+      <div class="col-sm-9 articles">
+          <?php the_post_thumbnail(); ?>
+          <div class="col-sm-3 contents">
+            <h2 class="fs-5 fw-bold ps-3" style="border-left: 5px solid #F4B63C;"><?php the_title(); ?></h2>
+            <div class="context">
+              <?php the_excerpt(); ?>
+            </div>
+            <a href="<?php the_permalink(); ?>" style="text-decoration: none; color: grey;">Read More...</a>
+          </div>
       </div>
-      <div class="col-sm-7">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/japan_news 1.png" alt="" class="img-fluid h-100 w-100">
-        
-      </div>
-      <div class="col-sm-3">
-        <h2 class="fs-5 fw-bold ps-3" style="border-left: 5px solid #F4B63C;">Japan Regional Council and the ASEAN Regional Council held a Conference.</h2>
-        <p class="mt-3">Last October 30,2020 on SNS, President Moon, the chairman of the National Unification Advisory Council for Democratic Peace, and other stakeholders from various fields and the Japan Regional Council and the ASEAN Regional Council held a conference.</p>
-        <a href="/wordpress/article_and_news_more/" style="text-decoration: none; color: grey;">Read More...</a>
-      </div>
+
+      <?php endforeach; wp_reset_postdata(); ?> 
     </div>
   </div>
   </div>
