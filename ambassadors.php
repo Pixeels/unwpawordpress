@@ -8,60 +8,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ambassadors</title>
-    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="<?php echo get_template_directory_uri(); ?>//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="assets\homepage\logo.png" rel="icon">
     
-    <link rel="stylesheet" href="scss\ambassador.css">
-    <link rel="stylesheet" href="scss\ambassador_style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/scss/ambassador.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/scss/ambassador_style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   </head>
 <body>
   <!-- Header Section -->
-  <div class="container-fluid m-0 p-0 header-bg ">
-    <div class="row mx-0">
-      <div class="col-sm-4 logo-bg mb-2">
-        <img src="assets\homepage\main-logo.png" alt="" srcset="" class="w-75 mt-2">
-      </div>
-      <div class="col-sm-8 h-50 d-flex mt-5">
-        <nav class="navbar navbar-expand-lg navbar-light align-self-end mt-5">
-          <a class="navbar-brand" href="#" disabled></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ">
-              <li class="nav-item">
-              <a class="nav-link active text-light fw-bold mx-1" style="font-size:1vw;" aria-current="page" href="#">HOME</a>
-              </li>
-              <li class="nav-item">
-              <a class="nav-link text-light fw-bold mx-1" style="font-size:1vw;" href="#">NEWS AND UPDATES</a>
-              </li>
-              <li class="nav-item">
-              <a class="nav-link text-light fw-bold mx-1" style="font-size:1vw;" href="#">AMBASSADORS</a>
-              </li>
-              <ul class="navbar-nav">
-              <li class="nav-item">
-              <a class="nav-link text-light fw-bold  mx-1" style="font-size:1vw;" aria-current="page" href="#">CONFERENCES</a>
-              </li>
-              <li class="nav-item">
-              <a class="nav-link text-light fw-bold mx-1" style="font-size:1vw;" href="#">STRUCTURE MEMBERS</a>
-              </li>
-              <li class="nav-item">
-              <a class="nav-link text-light fw-bold mx-1" style="font-size:1vw;" href="#">ABOUT US</a>
-              </li>
-              </ul>
-            </div>
-        </nav>
-      </div>
-    </div>
-  </div>
+ <?php include 'includes\header.php' ?>
 
   <!-- Searchbar -->
   <div class="container-fluid">
@@ -103,7 +66,7 @@
                         </div>
                           <div class="card-body-image">
                             <div class="view">
-                            <img src="assets/my-logo/BANGLADESH.jpg" data-bs-toggle="modal" data-bs-target="#staticBackdrop1" alt="BANGLADESH" object-fit="fill" width ="100%">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/BANGLADESH.jpg" data-bs-toggle="modal" data-bs-target="#staticBackdrop1" alt="BANGLADESH" object-fit="fill" width ="100%">
                             <!--Launch modal-->
                             </button>
                             <!-- Modal -->
@@ -115,7 +78,7 @@
                                     <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                   </div>
                                   <div class="modal-body">
-                                    <img src="assets/my-logo/BANGLADESH.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop1" alt="BANGLADESH" object-fit="fill" width ="100%">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/BANGLADESH.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop1" alt="BANGLADESH" object-fit="fill" width ="100%">
                                   </div>
                                   <div class="modal-footer">
                                     <a href="Bangladesh.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -142,7 +105,7 @@
                       <div class="card-body-image">
 
                         <div class="view">
-                          <img src="assets/my-logo/INDIA.jpeg" data-bs-toggle="modal" data-bs-target="#staticBackdrop2" alt="INDIA" object-fit="fill" width ="100%">
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/INDIA.jpeg" data-bs-toggle="modal" data-bs-target="#staticBackdrop2" alt="INDIA" object-fit="fill" width ="100%">
                           
                           <!--Launch modal-->
                           </button>
@@ -155,7 +118,7 @@
                                   <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                 </div>
                                 <div class="modal-body">
-                                  <img src="assets/my-logo/INDIA.jpeg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop2" alt="INDIA" object-fit="fill" width ="100%">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/INDIA.jpeg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop2" alt="INDIA" object-fit="fill" width ="100%">
                                 </div>
                                 <div class="modal-footer">
                                   <a href="India.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -181,7 +144,7 @@
                         </div>
                       <div class="card-body-image">
                       <div class="view">
-                          <img src="assets/my-logo/KENYA.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop3" alt="KENYA" object-fit="fill" width ="100%">
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/KENYA.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop3" alt="KENYA" object-fit="fill" width ="100%">
             
                           <!--Launch modal-->
                           </button>
@@ -194,7 +157,7 @@
                                   <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                 </div>
                                 <div class="modal-body">
-                                  <img src="assets/my-logo/KENYA.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop3" alt="KENYA" object-fit="fill" width ="100%">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/KENYA.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop3" alt="KENYA" object-fit="fill" width ="100%">
                                 </div>
                                 <div class="modal-footer">
                                   <a href="Kenya.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -220,7 +183,7 @@
                           </div>
                             <div class="card-body-image">
                               <div class="view">
-                              <img src="assets/my-logo/KOREA.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop4" alt="KOREA" object-fit="fill" width ="100%">
+                              <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/KOREA.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop4" alt="KOREA" object-fit="fill" width ="100%">
                               <!--Launch demo modal-->
                               </button>
                               <!-- Modal -->
@@ -232,7 +195,7 @@
                                       <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                     </div>
                                     <div class="modal-body">
-                                      <img src="assets/my-logo/KOREA.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop4" alt="KOREA" object-fit="fill" width ="100%">
+                                      <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/KOREA.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop4" alt="KOREA" object-fit="fill" width ="100%">
                                     </div>
                                     <div class="modal-footer">
                                       <a href="Korea.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -258,7 +221,7 @@
                           </div>
                             <div class="card-body-image">
                               <div class="view">
-                                <img src="assets/my-logo/MALAYSIA.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop5" alt="MALAYSIA" object-fit="fill" width ="100%">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/MALAYSIA.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop5" alt="MALAYSIA" object-fit="fill" width ="100%">
                                 <!--Launch modal-->
                                 </button>
                                 <!-- Modal -->
@@ -270,7 +233,7 @@
                                         <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                       </div>
                                       <div class="modal-body">
-                                        <img src="assets/my-logo/MALAYSIA.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop5" alt="MALAYSIA<" object-fit="fill" width ="100%">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/MALAYSIA.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop5" alt="MALAYSIA<" object-fit="fill" width ="100%">
                                       </div>
                                       <div class="modal-footer">
                                         <a href="Malaysia.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -296,7 +259,7 @@
                           </div>
                             <div class="card-body-image">
                               <div class="view">
-                                <img src="assets/my-logo/MEXICO.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop6" alt="MEXICO" object-fit="fill" width ="100%">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/MEXICO.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop6" alt="MEXICO" object-fit="fill" width ="100%">
                                 <!--Launch modal-->
                                 </button>
                                 <!-- Modal -->
@@ -308,7 +271,7 @@
                                         <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                       </div>
                                       <div class="modal-body">
-                                        <img src="assets/my-logo/MEXICO.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop6" alt="MEXICO" object-fit="fill" width ="100%">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/MEXICO.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop6" alt="MEXICO" object-fit="fill" width ="100%">
                                       </div>
                                       <div class="modal-footer">
                                         <a href="Mexico.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -334,7 +297,7 @@
                           </div>
                             <div class="card-body-image">
                               <div class="view">
-                                <img src="assets/my-logo/MOROCCO1.jpeg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop7" alt="MEXICO" object-fit="fill" width ="100%">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/MOROCCO1.jpeg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop7" alt="MEXICO" object-fit="fill" width ="100%">
                                 <!--Launch modal-->
                                 </button>
                                 <!-- Modal -->
@@ -346,7 +309,7 @@
                                         <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                       </div>
                                       <div class="modal-body">
-                                        <img src="assets/my-logo/MOROCCO1.jpeg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop7" alt="MOROCCO" object-fit="fill" width ="100%">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/MOROCCO1.jpeg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop7" alt="MOROCCO" object-fit="fill" width ="100%">
                                       </div>
                                       <div class="modal-footer">
                                         <a href="Morocco.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -372,7 +335,7 @@
                           </div>   
                             <div class="card-body-image">
                               <div class="view">
-                                <img src="assets/my-logo/MYANMAR.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop8" alt="MYANMAR" object-fit="fill" width ="100%">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/MYANMAR.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop8" alt="MYANMAR" object-fit="fill" width ="100%">
                                 <!--Launch modal-->
                                 </button>
                                 <!-- Modal -->
@@ -384,7 +347,7 @@
                                         <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                       </div>
                                       <div class="modal-body">
-                                        <img src="assets/my-logo/MYANMAR.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop8" alt="MOROCCO" object-fit="fill" width ="100%">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/MYANMAR.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop8" alt="MOROCCO" object-fit="fill" width ="100%">
                                       </div>
                                       <div class="modal-footer">
                                         <a href="Myanmar.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -410,7 +373,7 @@
                           </div>
                             <div class="card-body-image">
                               <div class="view">
-                                <img src="assets/my-logo/NEPAL.jpeg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop9" alt="NEPAL" object-fit="fill" width ="100%">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/NEPAL.jpeg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop9" alt="NEPAL" object-fit="fill" width ="100%">
                                 <!--Launch modal-->
                                 </button>
                                 <!-- Modal -->
@@ -422,7 +385,7 @@
                                         <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                       </div>
                                       <div class="modal-body">
-                                        <img src="assets/my-logo/NEPAL.jpeg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop9" alt="NEPAL" object-fit="fill" width ="100%">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/NEPAL.jpeg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop9" alt="NEPAL" object-fit="fill" width ="100%">
                                       </div>
                                       <div class="modal-footer">
                                         <a href="Nepal.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -448,7 +411,7 @@
                           </div>
                             <div class="card-body-image">
                               <div class="view">
-                                <img src="assets/my-logo/PHILIPPINES.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop10" alt="PHILIPPINES" object-fit="fill" width ="100%">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/PHILIPPINES.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop10" alt="PHILIPPINES" object-fit="fill" width ="100%">
                                 <!--Launch modal-->
                                 </button>
                                 <!-- Modal -->
@@ -460,7 +423,7 @@
                                         <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                       </div>
                                       <div class="modal-body">
-                                        <img src="assets/my-logo/PHILIPPINES.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop10" alt="PHILIPPINES" object-fit="fill" width ="100%">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/PHILIPPINES.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop10" alt="PHILIPPINES" object-fit="fill" width ="100%">
                                       </div>
                                       <div class="modal-footer">
                                         <a href="Philippines.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -486,7 +449,7 @@
                           </div>
                             <div class="card-body-image">
                               <div class="view">
-                                <img src="assets/my-logo/SPAIN.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop11" alt="SPAIN" object-fit="fill" width ="100%">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/SPAIN.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop11" alt="SPAIN" object-fit="fill" width ="100%">
                                 <!--Launch modal-->
                                 </button>
                                 <!-- Modal -->
@@ -498,7 +461,7 @@
                                         <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                       </div>
                                       <div class="modal-body">
-                                        <img src="assets/my-logo/SPAIN.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop11" alt="SPAIN" object-fit="fill" width ="100%">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/SPAIN.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop11" alt="SPAIN" object-fit="fill" width ="100%">
                                       </div>
                                       <div class="modal-footer">
                                         <a href="Spain.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -524,7 +487,7 @@
                           </div>
                             <div class="card-body-image">
                               <div class="view">
-                                <img src="assets/my-logo/SRI LANKA.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop12" alt="SRI LANKA" object-fit="fill" width ="100%">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/SRI LANKA.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop12" alt="SRI LANKA" object-fit="fill" width ="100%">
                                 <!--Launch modal-->
                                 </button>
                                 <!-- Modal -->
@@ -536,7 +499,7 @@
                                         <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                       </div>
                                       <div class="modal-body">
-                                        <img src="assets/my-logo/SRI LANKA.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop12" alt="SRI LANKA" object-fit="fill" width ="100%">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/SRI LANKA.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop12" alt="SRI LANKA" object-fit="fill" width ="100%">
                                       </div>
                                       <div class="modal-footer">
                                         <a href="SriLanka.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -562,7 +525,7 @@
                           </div>
                             <div class="card-body-image">
                               <div class="view">
-                                <img src="assets/my-logo/THAILAND.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop13" alt="THAILAND" object-fit="fill" width ="100%">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/THAILAND.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop13" alt="THAILAND" object-fit="fill" width ="100%">
                                 <!--Launch modal-->
                                 </button>
                                 <!-- Modal -->
@@ -574,7 +537,7 @@
                                         <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                       </div>
                                       <div class="modal-body">
-                                        <img src="assets/my-logo/THAILAND.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop13" alt="THAILAND" object-fit="fill" width ="100%">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/THAILAND.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop13" alt="THAILAND" object-fit="fill" width ="100%">
                                       </div>
                                       <div class="modal-footer">
                                         <a href="Thailand.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -600,7 +563,7 @@
                           </div>
                             <div class="card-body-image">
                               <div class="view">
-                                <img src="assets/my-logo/UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop14" alt="UNWPA UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND" object-fit="fill" width ="100%">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop14" alt="UNWPA UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND" object-fit="fill" width ="100%">
                                 <!--Launch modal-->
                                 </button>
                                 <!-- Modal -->
@@ -612,7 +575,7 @@
                                         <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                       </div>
                                       <div class="modal-body">
-                                        <img src="assets/my-logo/UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop14" alt="UNWPA UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND" object-fit="fill" width ="100%">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop14" alt="UNWPA UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND" object-fit="fill" width ="100%">
                                       </div>
                                       <div class="modal-footer">
                                         <a href="UnitedKingdom.php"><button type="button" class="btn btn-primary text-white">More</button><a>
@@ -638,7 +601,7 @@
                           </div>
                             <div class="card-body-image">
                               <div class="view">
-                                <img src="assets/my-logo/USA.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop15" alt="UNWPA USA" object-fit="fill" width ="100%">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/USA.jpg" class="overlay zoom" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop15" alt="UNWPA USA" object-fit="fill" width ="100%">
                                 <!--Launch modal-->
                                 </button>
                                 <!-- Modal -->
@@ -650,7 +613,7 @@
                                         <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
                                       </div>
                                       <div class="modal-body">
-                                        <img src="assets/my-logo/USA.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop15" alt="UNWPA USA" object-fit="fill" width ="100%">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/USA.jpg" class="rounded" alt="" data-bs-toggle="modal" data-bs-target="#staticBackdrop15" alt="UNWPA USA" object-fit="fill" width ="100%">
                                       </div>
                                       <div class="modal-footer">
                                         <a href="USA.php"><button type="button" class="btn btn-primary text-white">More</button><a>
