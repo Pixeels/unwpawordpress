@@ -97,7 +97,7 @@
               <div class="card bg-dark">
                 <!-- Card image -->
                 <div class="view overlay text-center">
-                  <img src="<?php echo get_template_directory_uri(); ?>assets/my-logo/India2.png" class="card-img-top"
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/India2.png" class="card-img-top"
                     alt="">
                   <a>
                     <div class="mask"></div>
