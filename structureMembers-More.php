@@ -38,7 +38,7 @@
                 <div class="card mb-3 w-100 mx-5 mt-5 p-5 bg-primary-cardbackground shadow">
                     <div class="row g-0 p-2">
                         <div class="col-md-4 mx-auto my-auto">
-                            <img src="assets\stucture members\10.png" class="img-fluid-profile-more mx-auto my-auto d-flex ">
+                            <img src="<?php echo get_template_directory_uri(); ?> /assets/stucture members/10.png" class="img-fluid-profile-more mx-auto my-auto d-flex ">
                             <div class="parallelogram d-flex px-3 mx-auto">
                                 <div class="vr my-auto"></div>
                                 <h6 class="text-white-fusao fw-bold my-auto">KATSUHIRO NISHINO</h6>

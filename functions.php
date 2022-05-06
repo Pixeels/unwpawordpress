@@ -42,9 +42,9 @@ register_post_type( 'Articles-and-News',
 );
 }
 
-
 add_action( 'init', 'create_post_type' );
 
+// Post-type Structure Members
 function create_posttype() {
 	register_post_type( 'Structure-Members',
 		array (
@@ -59,12 +59,25 @@ function create_posttype() {
 	);
 	}
 	
-	
 	add_action( 'init', 'create_posttype' );
+
+	// Post-type Conference Participation
+function create_conference_posttype() {
+	register_post_type( 'Conference-Posts',
+		array (
+		  'labels' => array (
+			'name' => __( 'Conference-Posts' ),
+			'singular_name' => __( 'Conference-Posts一Add New' )
+		  ),
+		  'public' => true,
+		  'supports' => array('title','thumbnail', 'editor'), 
+		  'menu_position' => 4,
+		)
+	);
+	}
 	
-
-
-
+	add_action( 'init', 'create_conference_posttype' );
+	
 
  // Automatic conversion of custom post slugs
  function auto_post_slug( $slug, $post_ID, $post_status, $post_type ) {

@@ -15,6 +15,59 @@ body {
   text-decoration-thickness: 2px;
 }
 
+.articles {
+  position: relative;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: left;
+}
+
+.articles img {
+  height: 360px;
+  width: 100%;
+}
+
+.articles img:last-child {
+  width: 70%;
+  height: 100%;
+}
+
+.articles .contents h2 {
+  font-size: 25px;
+  color: darkblue;
+}
+
+.articles .contents .context {
+  font-size: 20px;
+  color: blue;
+}
+
+.articles .contents .context:last-child {
+  display: block;
+}
+
+.articles .contents:last-child {
+  width: 30%;
+}
+
+.articles:last-child {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  float: right;
+}
+
 .header-bg {
   background-color: #2861f6;
   border-bottom: 10px solid #264caa;
@@ -118,8 +171,37 @@ ul.social-media li img {
   height: 90vh;
 }
 
+.form-input form input {
+  width: 100%;
+  margin-top: 0.5rem;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 15px;
+  color: #ffe7a6;
+}
+
+.form-input form p > input:last-child {
+  background-color: #d78e00;
+  color: #fff;
+  font-weight: bold;
+}
+
+.card {
+  min-height: 50%;
+  max-height: 50%;
+}
+
+.card-img-top {
+  height: 50rem;
+  max-width: 100%;
+  overflow: hidden;
+}
+
 .card-img-top img {
-  height: 50% !important;
+  height: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .overlay {
@@ -129,6 +211,34 @@ ul.social-media li img {
   top: 0;
   left: 0;
   opacity: 1;
+}
+
+span.wpcf7-not-valid-tip {
+  color: #db2424;
+  font-size: 0.8rem;
+  position: relative;
+  top: 3px;
+}
+
+li#wpcf7-f110-o1-ve-text-792, li#wpcf7-f110-o1-ve-text-793, li#wpcf7-f110-o1-ve-date-328,
+li#wpcf7-f110-o1-ve-text-794, li#wpcf7-f110-o1-ve-text-795, li#wpcf7-f110-o1-ve-tel-361, li#wpcf7-f110-o1-ve-email-958 {
+  display: none;
+}
+
+.screen-reader-response p {
+  color: #bd0c0c;
+}
+
+.wpcf7-response-output {
+  color: #bd0c0c;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+  color: #1d710e;
+}
+
+span.wpcf7-not-valid-tip {
+  color: #a00a0a;
 }
 
 img {
@@ -326,16 +436,6 @@ img {
   background: #f0f5ff;
 }
 
-.aboutUsTitle {
-  position: relative;
-}
-
-.aboutUsTitle h1 {
-  position: absolute;
-  margin-left: -12rem;
-  z-index: 2;
-}
-
 .bg_blob1 {
   position: relative;
   height: 33rem;
@@ -377,10 +477,7 @@ img {
 }
 
 .memberTitle {
-  position: absolute;
-  margin-top: 10rem !important;
-  z-index: 2;
-  margin-left: -16rem;
+  margin-top: 0rem !important;
 }
 
 .memberTitleImg {
@@ -418,7 +515,8 @@ img {
 .memberCard0 {
   background: #ffffff;
   margin-top: 2rem;
-  height: 10rem;
+  width: 30rem !important;
+  height: 12rem !important;
   border-style: 1px solid;
   -webkit-box-shadow: 1px 1px 1px 1px #bdbdbd;
           box-shadow: 1px 1px 1px 1px #bdbdbd;
@@ -472,10 +570,6 @@ img {
 
 .memberImage3 {
   padding-left: 1rem;
-}
-
-.memberTitle {
-  margin-top: 8rem;
 }
 
 .membersTitleBg {
@@ -755,6 +849,7 @@ ul.advocacy-list li::before {
   }
   .memberCard0 {
     width: 28rem !important;
+    height: 12rem !important;
   }
   .titleCont {
     position: relative;
@@ -953,10 +1048,6 @@ ul.advocacy-list li::before {
   .aboutTitle {
     margin-top: 5rem;
   }
-  .titleDesc {
-    position: absolute;
-    margin-left: 9rem;
-  }
   .missionDesc {
     font-size: 15px !important;
     width: 320px !important;
@@ -979,19 +1070,16 @@ ul.advocacy-list li::before {
     padding-right: 1rem !important;
   }
   .memberCard0 {
-    width: 26rem !important;
-    height: 10rem !important;
+    width: 20rem !important;
+    height: 13rem !important;
   }
   .boardTitle {
     font-weight: bold;
     font-size: 20px;
   }
-  .bg_blob2 {
-    display: none;
-  }
   .memberTitle {
-    margin-top: -2rem !important;
-    margin-left: 4rem !important;
+    margin-top: -1rem !important;
+    margin-bottom: -2rem !important;
   }
   .memberTitleImg {
     margin-top: 0rem !important;
@@ -1021,12 +1109,11 @@ ul.advocacy-list li::before {
     margin-bottom: 0rem !important;
   }
   .pPortalTitleContainer img {
-    width: 8rem !important;
+    width: 8rem;
   }
   .partnershipsContainer1 {
     margin-left: 0rem !important;
     margin-right: 0rem !important;
-    width: 21rem;
   }
   .partnerDescription {
     font-size: 15px !important;
@@ -1042,6 +1129,10 @@ ul.advocacy-list li::before {
   }
   .pPortalTitleDesc {
     margin-top: -6rem !important;
+  }
+  .WFW {
+    width: 242rem !important;
+    height: auto;
   }
   .undesa {
     margin-top: 1rem !important;
@@ -1388,5 +1479,3 @@ ul.advocacy-list li::before {
 
 /* END OF STRUCTURE MEMBERS CSS */
 /*# sourceMappingURL=style.css.map */
-
-

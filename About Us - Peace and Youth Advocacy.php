@@ -1,13 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
-    <link href="assets\homepage\logo.png" rel="icon">
-    <link rel="stylesheet" href="scss\style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Us - Peace and Youth Advocacy</title>
-</head>
 <body>
     <!-- Header Section -->
     <?php include 'includes\header.php' ?>

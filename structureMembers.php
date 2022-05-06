@@ -6,11 +6,11 @@
 
 <head>
     <style>
-      body {
-        font-family: 'Poppins';
-        font-family: 20px;
-        color: white !important;
-    }
+        body {
+            font-family: 'Poppins';
+            font-family: 20px;
+            color: white !important;
+        }
     </style>
 </head>
 
@@ -68,7 +68,7 @@
     <div class="container-fluid">
         <div class="row row-members p-2">
             <div class="card-group px-5 py-2">
-               <div class="card size bkgnd mx-3 px-2 shadow column">
+                <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\7.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">
                         <div class="vr my-auto"></div>
@@ -78,18 +78,54 @@
                         <h6 class="my-auto mt-1 text-white mx-auto text-center">Representative of Finance and Accounting
                         </h6>
                     </div>
-
-
                     <div class="card-body px-4">
-                        <p class="card-text text-white">Realities that are not broadcast on television are
-                            happening around
-                            the world. Through UNWPA’s activities, we are telling you the reality and working hard to help
-                            you become...</p>
+                        <p class="card-text text-white"> Realities that are not broadcast on television are happening around the world. Through UNWPA’s activities, we are telling you the reality...</p>
                         <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                         <!-- <div class="d-flex justify-content-end "><small class="more">MORE</small></div> -->
-                       <div class="d-flex justify-content-end "><button type="button" class="btn btn-primary"><small>MORE</small></button></div>
+                         <a href="/wordpress/structure_members_more/"><div class="d-flex justify-content-end "><button type="button" class="btn btn-primary"><small>MORE</small></button></a></div>
                     </div>
                 </div> 
+
+
+
+                                            <!-- <div class="card size bkgnd mx-3 px-2 shadow column"> -->
+                                            <!-- <?php 
+                                                                    $args = array(
+                                                                        'post_type' => 'post',
+                                                                        'posts_per_page' => 3,
+                                                                        'orderby' => 'post_date',
+                                                                        'order' => 'DESC',
+                                                                        'post_status' => 'publish',
+                                                                        );
+                                                                        $posts = get_posts( $args );
+                                                                        foreach ( $posts as $post ):
+                                                                        setup_postdata( $post );
+                                                                ?>  
+                                            <?php the_post_thumbnail(); ?>
+                                            <div class="parallelogram-members d-flex px-3 mx-auto">
+                                                <div class="vr my-auto"></div>
+                                                <h6 class="text-white-ayaka fw-bold my-auto mx-auto d-flex w-auto"><?php the_title(); ?></h6>
+                                            </div>
+                                            <div class="d-flex justify-content-center px-2">
+                                                <h6 class="my-auto mt-1 text-white mx-auto text-center">Representative of Finance and Accounting
+                                                </h6>
+                                            </div>
+                                            <div class="card-body px-4">
+                                                <p class="card-text text-white"> <?php the_excerpt(); ?></p>
+                                                <a href="<?php the_permalink(); ?>" class="btn btn-primary events-button">VIEW MORE</a>
+                                        
+                                            </div>
+                                        </div> 
+                                            
+                                                <?php endforeach; wp_reset_postdata(); ?>  
+                                            -->
+
+
+
+
+
+
+
                 <div class="card size bkgnd mx-3 px-2 shadow column">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets\stucture members\5.png" alt="Card image cap" class="card-img-top img-size mx-auto">
                     <div class="parallelogram-members d-flex px-3 mx-auto">

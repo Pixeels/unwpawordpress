@@ -31,8 +31,8 @@
                 <div class="container-fluid m-0 p-0 partnershipsContainer2">
 
                     <div class="container-fluid m-0 pb-5 d-flex justify-content-center partner_disp1">
-                            <div class="col-sm-6 align-self-center">  
-                                <img class="image-fluid d-flex mx-auto justify-content-center image_p" alt="world" src="assets/about us/woldforworld.png" >                       
+                            <div class="col-sm-6 align-self-center ">  
+                                <img class="image-fluid d-flex justify-content-center WFW" alt="world" src="<?php echo get_template_directory_uri(); ?>/assets/about us/worldforworld.png " >                       
                             </div>     
                             <div class="col-sm-5 justify-content-center description_1">
                                 <span class="text-center fs-4 partnerDescription"> 
@@ -76,7 +76,7 @@
 
                     <div class="container-fluid m-0 pb-2 pt-2 d-flex justify-content-center partner_disp1">
                             <div class="col-sm-6 align-self-center UNPP_cont">  
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/UPP.png" class="image-fluid d-flex mx-auto justify-content-center UNPP_img">                       
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/UPP.jpg" class="image-fluid d-flex mx-auto justify-content-center UNPP_img">                       
                             </div>     
                             <div class="col-sm-5 justify-content-center mt-5 UNPP">
                                 <span class="text-center fs-4 partnerDescription"> 

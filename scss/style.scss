@@ -432,14 +432,15 @@ img{ max-width:100%;}
     background: $aboutbgcolor1;
 }
 
-.aboutUsTitle{
-    position: relative;
-}
-.aboutUsTitle h1{
-    position: absolute;
-    margin-left: -12rem;
-    z-index: 2;
-}
+// .aboutUsTitle{
+//     position: relative;
+// }
+// .aboutUsTitle h1{
+//     position: absolute;
+//     margin-left: -12rem;
+//     z-index: 2;
+// }
+
 .bg_blob1{
     position: relative;
     height: 33rem;
@@ -478,10 +479,7 @@ img{ max-width:100%;}
     width: 46rem;
 }
 .memberTitle{
-    position: absolute;
-    margin-top: 10rem !important;
-    z-index: 2;
-    margin-left: -16rem;
+    margin-top: 0rem !important;
 
 }
 .memberTitleImg{
@@ -514,7 +512,8 @@ img{ max-width:100%;}
 .memberCard0 {
     background: $whitebg;
     margin-top: 2rem;
-    height: 10rem;
+    width: 30rem !important;
+    height: 12rem !important; 
     border-style: 1px solid;
     box-shadow: 1px 1px 1px 1px #bdbdbd;
 }
@@ -566,10 +565,6 @@ img{ max-width:100%;}
 
 .memberImage3 {
     padding-left: 1rem;
-}
-
-.memberTitle {
-    margin-top: 8rem;
 }
 
 .membersTitleBg {
@@ -883,6 +878,7 @@ ul.advocacy-list li::before {
 
     .memberCard0{
         width: 28rem !important;
+        height: 12rem !important;
 
     }
 
@@ -1125,10 +1121,6 @@ ul.advocacy-list li::before {
         margin-top: 5rem;
     }
 
-    .titleDesc {
-        position: absolute;
-        margin-left: 9rem;
-    }
     .missionDesc{
         font-size: 15px !important;
         width: 320px !important;
@@ -1154,21 +1146,17 @@ ul.advocacy-list li::before {
         padding-right: 1rem !important;
     }
     .memberCard0{
-        width: 26rem !important;
-        height: 10rem !important;
+        width: 20rem !important;
+        height: 13rem !important;
     }
     .boardTitle{
         font-weight: bold;
         font-size: 20px;
     }
 
-    .bg_blob2{
-        display: none;
-    }
-
     .memberTitle{
-        margin-top: -2rem !important; 
-        margin-left: 4rem !important;
+        margin-top: -1rem !important; 
+        margin-bottom: -2rem !important;
     }
 
     .memberTitleImg{
@@ -1204,12 +1192,12 @@ ul.advocacy-list li::before {
         margin-bottom: 0rem !important;
     }
     .pPortalTitleContainer img{
-        width: 8rem !important;
+        width: 8rem ;
     }
     .partnershipsContainer1{
         margin-left: 0rem !important;
         margin-right: 0rem !important;
-        width: 21rem;
+        // width: 21rem;
     }
     .partnerDescription{
         font-size: 15px !important;
@@ -1225,6 +1213,10 @@ ul.advocacy-list li::before {
     }
     .pPortalTitleDesc{
         margin-top: -6rem !important;
+    }
+    .WFW{
+        width: 242rem !important;
+        height: auto;
     }
     .undesa{
         margin-top: 1rem !important;

@@ -10,10 +10,7 @@
   <!-- Title -->
   <div class="container-fluid m-0 p-0 aboutTitleContainer" >
     <div class="row m-0 p-0 align-items-center aboutUsTitle">
-        <div class="col-sm-4 p-0 px-0 mt-10 mb-10 blobCont">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/about us/bg-paya1.png" alt="" class="img-fluid float-sm-start bg_blob1">
-        </div>
-        <div class="col-sm-2 p-0 px-0 mt-10 mb-10 titleCont">
+        <div class="col-sm-6 p-0 px-0 mt-10 mb-10 titleCont">
          <h1 class="text-center fw-bold titleDesc"> About Us  </h1>
         </div>
         <div class="col-sm-6 m-0 px-0 py-5 container-fluid d-flex justify-content-center align-items-center titleLogo">
