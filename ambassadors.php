@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ambassadors</title>
+<<<<<<< HEAD
     <link href="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist\css\bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="<?php echo get_template_directory_uri(); ?>//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -16,6 +17,16 @@
     <script src="<?php echo get_template_directory_uri(); ?>/https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="assets\homepage\logo.png" rel="icon">
+=======
+    <link href="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="<?php echo get_template_directory_uri(); ?>//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>///cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/homepage/logo.png" rel="icon">
+>>>>>>> 19dcc7f2b3a1e7b8695d247f8dbda4882725d313
     
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/scss/ambassador.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/scss/ambassador_style.css">
@@ -24,7 +35,11 @@
   </head>
 <body>
   <!-- Header Section -->
+<<<<<<< HEAD
  <?php include 'includes\header.php' ?>
+=======
+ <?php include 'includes/header.php' ?>
+>>>>>>> 19dcc7f2b3a1e7b8695d247f8dbda4882725d313
 
   <!-- Searchbar -->
   <div class="container-fluid">
@@ -48,7 +63,7 @@
                   <p class="top-left-logo p-4 rounded-pill" style="font-size:2vw;">INTRODUCING UNWPA'S AMBASSADORS</p>
               </div>
               <div class="card-div-right">
-                <img class="top-right-logo" src="assets/my-logo/image1.png" alt="">
+                <img class="top-right-logo" src="<?php echo get_template_directory_uri(); ?>/assets/my-logo/image1.png" alt="">
               </div>
             </div>
           <!-- upper-left card-div -->
@@ -655,5 +670,5 @@
           </nav>
         </div>
   </body>
-  <?php include 'includes\footer.php'?>
+  <?php include 'includes/footer.php'?>
 </html>
